@@ -1,0 +1,97 @@
+-----------------------------------------------------------------------------------------------------------
+VÁZ
+FELHASZNALO:
+	<felhasznalo_nev>
+	<felettesek_nevei>: listof(FELHASZNALO)
+	<hierarchia_szint>
+	(<allata_levok_nevei>: listof(FELHASZNALO))
+	(<felhasznalo_id>)
+	(<role>: enum)	
+IGENY:
+	<igeny_nev>
+	<igenylo_nev>: FELHASZNALO
+	<beszallito_nev>: FELHASZNALO
+	<kategoria_nev>: KATEGORIA
+	<attributumok>: listof(<attributumnev><attributum_mertekegyseg>)
+	<beszallito>: FELHASZNALO
+	(<jogosultsag_az_igenyleshez>)
+KATEGORIA:
+	<kategoria_nev>
+	<attributumok>: listof(<attributumnev><attributum_mertekegyseg>)
+	<jovahagyok>: listof(FELHASZNALO)
+	<szabalyok>: listof(SZABALY)
+SZABALY:
+	<szabaly_neve>
+	<kategoria>: KATEGORIA
+	<kriterium>: BLACKBOX
+	<jovahagyok_nevei>: (listof(FELHASZNALO))
+	<jovahagyas_tipusa>
+JOVAHAGYAS: 						//valoszinu generált
+	<igeny>: IGENY
+	<jovahagyok_nevei>: listof(FELHASZNALO))
+	<tipusa>: BLACKBOX								//SOROS/PÁRHUZAMOS
+	<kimenetel>
+	<jovahagytak>: membersof(jovahagyok_nevei)
+	<elutasitottak>: membersof(jovahagyok_nevei)
+	(<kinek_dobja_vissza>: FELHASZNALO)					//vagy listof(FELHASZNALO)
+
+-----------------------------------------------------------------------------------------------------------
+FELHASZNÁLÁS
+APPROVAL WORKFLOW MANAGER:
+SZABALY letrehozas:
+	neve: szabaly_1
+	kategoria: IT_eszközök
+	kriterium: ár>500000
+	jovahagyok_nevei: Toth Endre						//hierarchia szint felett, vagy megrendelo felettese
+	tipusa: PÁRHUZAMOS
+	
+	neve: szabaly_2
+	(kategoria: ALL)
+	kriterium:
+	jovahagyok_nevei: IGENY.igenylo_nev.felettesek
+	tipusa: PÁRHUZAMOS
+
+	neve: szabaly_3
+	(kategoria: ALL)
+	kriterium: !IGENY.beszallito.exists
+	jovahagyok_nevei:
+	tipusa: SOROS
+KATEGORIA létrehozás:
+	kategória neve: ALL
+		attributum1: határidő
+		attributum2 mértékegysége: date
+	jovahagyok:
+	szabalyok: szabaly_2, szabaly_3
+KATEGORIA létrehozás:
+	kategória neve: IT_eszközök
+		attributum1 neve: mennyiség 
+		attributum1 mértékegysége: db
+		attributum2 neve: ár
+		attributum2 mértékegysége: Ft
+	jovahagyok: IT Béla
+	szabalyok: szabaly_1
+
+USER:
+FELHASZNALO letrehozas:
+	felhasználó neve: Edvi Gergő Ádám
+	felettes neve: Kis Jakab
+	hierarchia szint: 3
+
+IGÉNY:
+	igény név: Új laptop
+	igenylő neve: Edvi Gergő Ádám
+	kategoria_neve: ALL, IT_eszközök
+		határidő (date): 2020-11-17
+		mennyiseg (db): 1			
+		ár (Ft): 1234560
+	beszallito: Új László
+JOVAHAGYAS:
+	igény: Új laptop
+	jovahagyok_nevei: IT Béla, Toth Endre, Kis Jakab
+	szabalyok: IGENY.kategoria.szabalyok, ALL.szabalyok
+	tipus: SOROS
+	jovahagytak:
+	elutasitottak:
+	kimenetel: pending
+	kinek dobja vissza: IGENY.igenylo_neve
+	
