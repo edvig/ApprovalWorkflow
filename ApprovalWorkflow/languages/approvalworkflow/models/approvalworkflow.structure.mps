@@ -189,7 +189,7 @@
     <node concept="1TJgyj" id="1rSNnDxxIzk" role="1TKVEi">
       <property role="IQ2ns" value="1655298788564592852" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rejectedby" />
+      <property role="20kJfa" value="declinedby" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1rSNnDxxIxJ" resolve="Approval" />
     </node>
@@ -205,7 +205,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1rSNnDxxIxS" role="1TKVEl">
       <property role="IQ2nx" value="1655298788564592760" />
-      <property role="TrG5h" value="attributename" />
+      <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1rSNnDxxIxU" role="1TKVEl">
