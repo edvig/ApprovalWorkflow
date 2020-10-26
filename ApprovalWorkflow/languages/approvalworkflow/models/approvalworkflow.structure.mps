@@ -205,7 +205,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1rSNnDxxIxS" role="1TKVEl">
       <property role="IQ2nx" value="1655298788564592760" />
-      <property role="TrG5h" value="attributename" />
+      <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1rSNnDxxIxU" role="1TKVEl">
