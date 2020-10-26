@@ -189,7 +189,7 @@
     <node concept="1TJgyj" id="1rSNnDxxIzk" role="1TKVEi">
       <property role="IQ2ns" value="1655298788564592852" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rejectedby" />
+      <property role="20kJfa" value="declinedby" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1rSNnDxxIxJ" resolve="Approval" />
     </node>

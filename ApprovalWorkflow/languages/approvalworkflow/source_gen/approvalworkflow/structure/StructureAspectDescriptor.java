@@ -71,7 +71,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("requirement", 0x16f8cd7a6186e8c3L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L).optional(true).ordered(true).multiple(true).origin("1655298788564592835").done();
     b.aggregate("approvers", 0x16f8cd7a6186e8c5L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86fL).optional(true).ordered(true).multiple(true).origin("1655298788564592837").done();
     b.aggregate("approvedby", 0x16f8cd7a6186e8d0L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86fL).optional(true).ordered(true).multiple(true).origin("1655298788564592848").done();
-    b.aggregate("rejectedby", 0x16f8cd7a6186e8d4L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86fL).optional(true).ordered(true).multiple(true).origin("1655298788564592852").done();
+    b.aggregate("declinedby", 0x16f8cd7a6186e8d4L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86fL).optional(true).ordered(true).multiple(true).origin("1655298788564592852").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForAttribute() {

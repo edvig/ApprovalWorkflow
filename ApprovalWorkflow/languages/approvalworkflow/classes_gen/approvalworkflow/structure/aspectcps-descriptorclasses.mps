@@ -1658,7 +1658,7 @@
                         <node concept="liA8E" id="95" role="2OqNvi">
                           <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.aggregate(java.lang.String,long)" resolve="aggregate" />
                           <node concept="Xl_RD" id="96" role="37wK5m">
-                            <property role="Xl_RC" value="rejectedby" />
+                            <property role="Xl_RC" value="declinedby" />
                           </node>
                           <node concept="1adDum" id="97" role="37wK5m">
                             <property role="1adDun" value="0x16f8cd7a6186e8d4L" />
