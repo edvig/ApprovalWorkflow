@@ -74,16 +74,17 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createProperty_1());
     editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createRefNodeList_0());
+    editorCell.addEditorCell(createConstant_4());
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "USER");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "New User:");
     editorCell.setCellId("Constant_1jbsxc_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "name:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Name:");
     editorCell.setCellId("Constant_1jbsxc_b0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -91,7 +92,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.name$oZ32;
+      final SProperty property = PROPS.name$MnvL;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no name>");
@@ -174,10 +175,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.superior$pcqV;
+      return LINKS.superior$REH4;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.User$eb;
+      return CONCEPTS.UserReference$zN;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -187,7 +188,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(superiorListHandler_1jbsxc_g0.this.getNode(), LINKS.superior$pcqV));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(superiorListHandler_1jbsxc_g0.this.getNode(), LINKS.superior$REH4));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -227,18 +228,24 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
   }
+  private EditorCell createConstant_4() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "---------------------------------------");
+    editorCell.setCellId("Constant_1jbsxc_h0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
 
   private static final class PROPS {
-    /*package*/ static final SProperty name$oZ32 = MetaAdapterFactory.getProperty(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L, 0x16f8cd7a6186e84fL, "name");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty hierarchy$p4Fq = MetaAdapterFactory.getProperty(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L, 0x16f8cd7a6186e852L, "hierarchy");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$Gb = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
-    /*package*/ static final SConcept User$eb = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L, "approvalworkflow.structure.User");
+    /*package*/ static final SConcept UserReference$zN = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f83dL, "approvalworkflow.structure.UserReference");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink superior$pcqV = MetaAdapterFactory.getContainmentLink(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L, 0x16f8cd7a6186e85eL, "superior");
+    /*package*/ static final SContainmentLink superior$REH4 = MetaAdapterFactory.getContainmentLink(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L, 0x49291be038e1f842L, "superior");
   }
 }

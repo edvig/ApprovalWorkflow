@@ -11,19 +11,29 @@ public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int Approval = 0;
   public static final int Attribute = 1;
-  public static final int Category = 2;
-  public static final int Requirment = 3;
-  public static final int Rule = 4;
-  public static final int User = 5;
+  public static final int AttributeReference = 2;
+  public static final int Category = 3;
+  public static final int CategoryReference = 4;
+  public static final int Requirment = 5;
+  public static final int Rule = 6;
+  public static final int RuleReference = 7;
+  public static final int User = 8;
+  public static final int UserList = 9;
+  public static final int UserReference = 10;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L);
     builder.put(0x16f8cd7a6186e86fL, Approval);
     builder.put(0x16f8cd7a6186e877L, Attribute);
+    builder.put(0x49291be038e1f869L, AttributeReference);
     builder.put(0x16f8cd7a6186e86dL, Category);
+    builder.put(0x49291be038e1f854L, CategoryReference);
     builder.put(0x16f8cd7a6186e862L, Requirment);
     builder.put(0x16f8cd7a6186e86eL, Rule);
+    builder.put(0x49291be038e1f87bL, RuleReference);
     builder.put(0x16f8cd7a61858813L, User);
+    builder.put(0x49291be038e4df83L, UserList);
+    builder.put(0x49291be038e1f83dL, UserReference);
     myIndex = builder.seal();
   }
 
