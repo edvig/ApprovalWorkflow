@@ -11,10 +11,15 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Approval;
   private ConceptPresentation props_Attribute;
+  private ConceptPresentation props_AttributeReference;
   private ConceptPresentation props_Category;
+  private ConceptPresentation props_CategoryReference;
   private ConceptPresentation props_Requirment;
   private ConceptPresentation props_Rule;
+  private ConceptPresentation props_RuleReference;
   private ConceptPresentation props_User;
+  private ConceptPresentation props_UserList;
+  private ConceptPresentation props_UserReference;
 
   @Override
   @Nullable
@@ -31,38 +36,73 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Attribute:
         if (props_Attribute == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Attribute");
+          cpb.presentationByName();
           props_Attribute = cpb.create();
         }
         return props_Attribute;
+      case LanguageConceptSwitch.AttributeReference:
+        if (props_AttributeReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f869L, 0x49291be038e1f86aL, "attribute", "", "");
+          props_AttributeReference = cpb.create();
+        }
+        return props_AttributeReference;
       case LanguageConceptSwitch.Category:
         if (props_Category == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Category");
+          cpb.presentationByName();
           props_Category = cpb.create();
         }
         return props_Category;
+      case LanguageConceptSwitch.CategoryReference:
+        if (props_CategoryReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f854L, 0x49291be038e1f855L, "category", "", "");
+          props_CategoryReference = cpb.create();
+        }
+        return props_CategoryReference;
       case LanguageConceptSwitch.Requirment:
         if (props_Requirment == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Requirment");
+          cpb.presentationByName();
           props_Requirment = cpb.create();
         }
         return props_Requirment;
       case LanguageConceptSwitch.Rule:
         if (props_Rule == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Rule");
+          cpb.presentationByName();
           props_Rule = cpb.create();
         }
         return props_Rule;
+      case LanguageConceptSwitch.RuleReference:
+        if (props_RuleReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f87bL, 0x49291be038e1f87cL, "rule", "", "");
+          props_RuleReference = cpb.create();
+        }
+        return props_RuleReference;
       case LanguageConceptSwitch.User:
         if (props_User == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("User");
+          cpb.presentationByName();
           props_User = cpb.create();
         }
         return props_User;
+      case LanguageConceptSwitch.UserList:
+        if (props_UserList == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_UserList = cpb.create();
+        }
+        return props_UserList;
+      case LanguageConceptSwitch.UserReference:
+        if (props_UserReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f83dL, 0x49291be038e1f83eL, "user", "", "");
+          props_UserReference = cpb.create();
+        }
+        return props_UserReference;
     }
     return null;
   }

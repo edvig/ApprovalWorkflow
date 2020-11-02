@@ -93,7 +93,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.name$KyUa;
+      final SProperty property = PROPS.name$MnvL;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no name>");
@@ -151,7 +151,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.attributes$K$5f;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Attribute$Rv;
+      return CONCEPTS.AttributeReference$xN;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -234,7 +234,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.approvers$KMRe;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.User$eb;
+      return CONCEPTS.UserReference$zN;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -314,7 +314,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.rules$KSvA;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Rule$N8;
+      return CONCEPTS.RuleReference$YR;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -366,14 +366,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty name$KyUa = MetaAdapterFactory.getProperty(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86dL, 0x16f8cd7a6186e870L, "name");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$Gb = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
-    /*package*/ static final SConcept Attribute$Rv = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e877L, "approvalworkflow.structure.Attribute");
-    /*package*/ static final SConcept User$eb = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L, "approvalworkflow.structure.User");
-    /*package*/ static final SConcept Rule$N8 = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86eL, "approvalworkflow.structure.Rule");
+    /*package*/ static final SConcept AttributeReference$xN = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f869L, "approvalworkflow.structure.AttributeReference");
+    /*package*/ static final SConcept UserReference$zN = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f83dL, "approvalworkflow.structure.UserReference");
+    /*package*/ static final SConcept RuleReference$YR = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f87bL, "approvalworkflow.structure.RuleReference");
   }
 
   private static final class LINKS {

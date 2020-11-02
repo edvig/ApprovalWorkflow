@@ -13,7 +13,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="1ef220fc-a25f-420d-9c3c-5993e806d130/r:1ee936e1-710a-4c3f-8ca7-17f971a7b61f(TempModule1ef220fc-a25f-420d-9c3c-5993e806d130/ConsoleModel_567112585500)">
+            <model ref="650adb44-cdfb-4b37-82ee-ea08e4b208ab/r:6f3c9b6d-cd4e-4b16-9cb7-d4b4785e4041(TempModule650adb44-cdfb-4b37-82ee-ea08e4b208ab/ConsoleModel_271126103800)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +33,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1w72f4RWr5y">
-                <node concept="3balQm" id="1w72f4RWr5z" role="aymYE" />
-                <node concept="2Clz$F" id="1w72f4RWr5$" role="aymYO" />
-                <node concept="2_V_lH" id="1w72f4RWr5_" role="1PhJh3">
-                  <ref role="2_V_lI" node="1w72f4RWr5$" resolve="CommandHolder" />
+              <node concept="aymSD" id="HiCB4m6qLu">
+                <node concept="3balQm" id="HiCB4m6qLv" role="aymYE" />
+                <node concept="2Clz$F" id="HiCB4m6qLw" role="aymYO" />
+                <node concept="2_V_lH" id="HiCB4m6qLx" role="1PhJh3">
+                  <ref role="2_V_lI" node="HiCB4m6qLw" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -150,7 +150,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,18 +157,8 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8dbf2cd3-96b8-4a64-b131-8c83bb517c7b(approvalworkflow.editor) in IdeaFile[path: C:/Users/edvig/MPSProjects/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.editor.mps]" />
+              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -184,30 +173,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: C:/Users/edvig/MPSProjects/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,6 +203,40 @@
               <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8dbf2cd3-96b8-4a64-b131-8c83bb517c7b(approvalworkflow.editor) in IdeaFile[path: C:/Users/edvig/MPSProjects/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
@@ -247,6 +246,7 @@
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
