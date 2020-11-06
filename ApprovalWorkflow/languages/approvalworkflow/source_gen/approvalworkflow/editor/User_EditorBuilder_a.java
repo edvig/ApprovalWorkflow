@@ -9,10 +9,10 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
@@ -64,9 +64,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setCellId("Collection_1jbsxc_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
-    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createProperty_0());
@@ -78,7 +75,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "New User:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "USER");
     editorCell.setCellId("Constant_1jbsxc_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -86,6 +83,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Name:");
     editorCell.setCellId("Constant_1jbsxc_b0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -117,6 +117,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "hierarchy:");
     editorCell.setCellId("Constant_1jbsxc_d0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -148,6 +151,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "superior:");
     editorCell.setCellId("Constant_1jbsxc_f0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }

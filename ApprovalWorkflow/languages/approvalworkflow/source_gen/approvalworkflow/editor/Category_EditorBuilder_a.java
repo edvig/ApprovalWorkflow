@@ -73,6 +73,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createRefNodeList_1());
     editorCell.addEditorCell(createConstant_4());
     editorCell.addEditorCell(createRefNodeList_2());
+    editorCell.addEditorCell(createConstant_5());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -363,6 +364,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
         }
       }
     }
+  }
+  private EditorCell createConstant_5() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "---------------------------------------");
+    editorCell.setCellId("Constant_9seyg7_j0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 
   private static final class PROPS {

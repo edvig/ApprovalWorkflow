@@ -11,11 +11,14 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Approval;
   private ConceptPresentation props_Attribute;
+  private ConceptPresentation props_AttributeList;
   private ConceptPresentation props_AttributeReference;
   private ConceptPresentation props_Category;
+  private ConceptPresentation props_CategoryList;
   private ConceptPresentation props_CategoryReference;
   private ConceptPresentation props_Requirment;
   private ConceptPresentation props_Rule;
+  private ConceptPresentation props_RuleList;
   private ConceptPresentation props_RuleReference;
   private ConceptPresentation props_User;
   private ConceptPresentation props_UserList;
@@ -40,6 +43,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Attribute = cpb.create();
         }
         return props_Attribute;
+      case LanguageConceptSwitch.AttributeList:
+        if (props_AttributeList == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_AttributeList = cpb.create();
+        }
+        return props_AttributeList;
       case LanguageConceptSwitch.AttributeReference:
         if (props_AttributeReference == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -54,6 +64,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Category = cpb.create();
         }
         return props_Category;
+      case LanguageConceptSwitch.CategoryList:
+        if (props_CategoryList == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_CategoryList = cpb.create();
+        }
+        return props_CategoryList;
       case LanguageConceptSwitch.CategoryReference:
         if (props_CategoryReference == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -75,6 +92,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Rule = cpb.create();
         }
         return props_Rule;
+      case LanguageConceptSwitch.RuleList:
+        if (props_RuleList == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_RuleList = cpb.create();
+        }
+        return props_RuleList;
       case LanguageConceptSwitch.RuleReference:
         if (props_RuleReference == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
