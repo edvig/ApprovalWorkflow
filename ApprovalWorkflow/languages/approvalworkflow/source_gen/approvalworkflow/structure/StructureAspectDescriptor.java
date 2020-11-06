@@ -15,11 +15,14 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptApproval = createDescriptorForApproval();
   /*package*/ final ConceptDescriptor myConceptAttribute = createDescriptorForAttribute();
+  /*package*/ final ConceptDescriptor myConceptAttributeList = createDescriptorForAttributeList();
   /*package*/ final ConceptDescriptor myConceptAttributeReference = createDescriptorForAttributeReference();
   /*package*/ final ConceptDescriptor myConceptCategory = createDescriptorForCategory();
+  /*package*/ final ConceptDescriptor myConceptCategoryList = createDescriptorForCategoryList();
   /*package*/ final ConceptDescriptor myConceptCategoryReference = createDescriptorForCategoryReference();
   /*package*/ final ConceptDescriptor myConceptRequirment = createDescriptorForRequirment();
   /*package*/ final ConceptDescriptor myConceptRule = createDescriptorForRule();
+  /*package*/ final ConceptDescriptor myConceptRuleList = createDescriptorForRuleList();
   /*package*/ final ConceptDescriptor myConceptRuleReference = createDescriptorForRuleReference();
   /*package*/ final ConceptDescriptor myConceptUser = createDescriptorForUser();
   /*package*/ final ConceptDescriptor myConceptUserList = createDescriptorForUserList();
@@ -38,7 +41,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptApproval, myConceptAttribute, myConceptAttributeReference, myConceptCategory, myConceptCategoryReference, myConceptRequirment, myConceptRule, myConceptRuleReference, myConceptUser, myConceptUserList, myConceptUserReference);
+    return Arrays.asList(myConceptApproval, myConceptAttribute, myConceptAttributeList, myConceptAttributeReference, myConceptCategory, myConceptCategoryList, myConceptCategoryReference, myConceptRequirment, myConceptRule, myConceptRuleList, myConceptRuleReference, myConceptUser, myConceptUserList, myConceptUserReference);
   }
 
   @Override
@@ -49,16 +52,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptApproval;
       case LanguageConceptSwitch.Attribute:
         return myConceptAttribute;
+      case LanguageConceptSwitch.AttributeList:
+        return myConceptAttributeList;
       case LanguageConceptSwitch.AttributeReference:
         return myConceptAttributeReference;
       case LanguageConceptSwitch.Category:
         return myConceptCategory;
+      case LanguageConceptSwitch.CategoryList:
+        return myConceptCategoryList;
       case LanguageConceptSwitch.CategoryReference:
         return myConceptCategoryReference;
       case LanguageConceptSwitch.Requirment:
         return myConceptRequirment;
       case LanguageConceptSwitch.Rule:
         return myConceptRule;
+      case LanguageConceptSwitch.RuleList:
+        return myConceptRuleList;
       case LanguageConceptSwitch.RuleReference:
         return myConceptRuleReference;
       case LanguageConceptSwitch.User:
@@ -95,8 +104,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/1655298788564592759");
     b.version(2);
-    b.property("value", 0x16f8cd7a6186e87aL).type(PrimitiveTypeId.INTEGER).origin("1655298788564592762").done();
     b.property("unit", 0x16f8cd7a6186e881L).type(PrimitiveTypeId.STRING).origin("1655298788564592769").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForAttributeList() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "AttributeList", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x2b7b4a5722feffbdL);
+    b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/3133179703876059069");
+    b.version(2);
+    b.aggregate("attributes", 0x2b7b4a572302310cL).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e877L).optional(true).ordered(true).multiple(true).origin("3133179703876268300").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForAttributeReference() {
@@ -109,13 +126,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForCategory() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "Category", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86dL);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/1655298788564592749");
     b.version(2);
     b.aggregate("attributes", 0x16f8cd7a6186e875L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f869L).optional(true).ordered(true).multiple(true).origin("1655298788564592757").done();
     b.aggregate("approvers", 0x16f8cd7a6186e88aL).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f83dL).optional(true).ordered(true).multiple(true).origin("1655298788564592778").done();
     b.aggregate("rules", 0x16f8cd7a6186e88dL).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f87bL).optional(true).ordered(true).multiple(true).origin("1655298788564592781").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCategoryList() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "CategoryList", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x2b7b4a5722fc7236L);
+    b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/3133179703875891766");
+    b.version(2);
+    b.aggregate("categories", 0x2b7b4a5722fc7239L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86dL).optional(true).ordered(true).multiple(true).origin("3133179703875891769").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForCategoryReference() {
@@ -128,7 +154,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForRequirment() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "Requirment", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/1655298788564592738");
     b.version(2);
@@ -140,14 +166,23 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForRule() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "Rule", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86eL);
-    b.class_(false, false, true);
+    b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/1655298788564592750");
     b.version(2);
     b.property("type", 0x16f8cd7a6186e8bcL).type(PrimitiveTypeId.STRING).origin("1655298788564592828").done();
     b.property("criteria", 0x16f8cd7a6186e8bfL).type(PrimitiveTypeId.STRING).origin("1655298788564592831").done();
     b.associate("category", 0x49291be038e1f898L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86dL).optional(false).origin("5271775488654833816").done();
-    b.aggregate("approvers", 0x16f8cd7a6186e8b3L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L).optional(true).ordered(true).multiple(true).origin("1655298788564592819").done();
+    b.aggregate("approvers", 0x16f8cd7a6186e8b3L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e1f83dL).optional(true).ordered(true).multiple(true).origin("1655298788564592819").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForRuleList() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "RuleList", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x2b7b4a5722feff6aL);
+    b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/3133179703876058986");
+    b.version(2);
+    b.aggregate("rules", 0x2b7b4a5722feff6dL).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86eL).optional(true).ordered(true).multiple(true).origin("3133179703876058989").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRuleReference() {

@@ -67,6 +67,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createProperty_0());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createCollection_1());
     return editorCell;
   }
@@ -104,14 +105,23 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "------------------------------------------");
+    editorCell.setCellId("Constant_erhyp_c0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
   private EditorCell createCollection_1() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
-    editorCell.setCellId("Collection_erhyp_c0");
+    editorCell.setCellId("Collection_erhyp_d0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createRefNodeList_0());
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new usersListHandler_erhyp_a2a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new usersListHandler_erhyp_a3a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_users");
     Style style = new StyleImpl();
@@ -120,11 +130,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class usersListHandler_erhyp_a2a extends RefNodeListHandler {
+  private static class usersListHandler_erhyp_a3a extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public usersListHandler_erhyp_a2a(SNode ownerNode, EditorContext context) {
+    public usersListHandler_erhyp_a3a(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -147,7 +157,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(usersListHandler_erhyp_a2a.this.getNode(), LINKS.users$MhVj));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(usersListHandler_erhyp_a3a.this.getNode(), LINKS.users$MhVj));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
