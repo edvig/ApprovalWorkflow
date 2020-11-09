@@ -13,7 +13,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ca73135c-8101-4aa2-9b52-aefc9708828e/r:a1747979-3b61-4cf9-9a82-898bad800a6a(TempModuleca73135c-8101-4aa2-9b52-aefc9708828e/ConsoleModel_76381178623)">
+            <model ref="5f5bfbe8-0367-4d8d-99b2-095331003e05/r:880ac299-bbdb-420d-92bc-ef99852d920c(TempModule5f5bfbe8-0367-4d8d-99b2-095331003e05/ConsoleModel_664900084400)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +33,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2lzx2sYi7$t">
-                <node concept="3balQm" id="2lzx2sYi7$u" role="aymYE" />
-                <node concept="2Clz$F" id="2lzx2sYi7$v" role="aymYO" />
-                <node concept="2_V_lH" id="2lzx2sYi7$w" role="1PhJh3">
-                  <ref role="2_V_lI" node="2lzx2sYi7$v" resolve="CommandHolder" />
+              <node concept="aymSD" id="5BnVfVxtuFZ">
+                <node concept="3balQm" id="5BnVfVxtuG0" role="aymYE" />
+                <node concept="2Clz$F" id="5BnVfVxtuG1" role="aymYO" />
+                <node concept="2_V_lH" id="5BnVfVxtuG2" role="1PhJh3">
+                  <ref role="2_V_lI" node="5BnVfVxtuG1" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -166,36 +166,12 @@
               <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="approvalworkflow" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
+              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/Kolos/MPSProjects/Project/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,8 +190,14 @@
               <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,6 +208,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ae1ddddb-da3d-4ec1-8601-7af374e8418a(approvalworkflow.constraints) in IdeaFile[path: C:/Users/Kolos/MPSProjects/Project/languages/approvalworkflow/models/approvalworkflow.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,7 +249,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2020.2/calculator-tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Tests in 'approvalworkflow.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
