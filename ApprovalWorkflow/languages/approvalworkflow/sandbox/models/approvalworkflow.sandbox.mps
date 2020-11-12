@@ -19,6 +19,9 @@
       <concept id="5271775488654833769" name="approvalworkflow.structure.AttributeReference" flags="ng" index="1LMee9">
         <reference id="5271775488654833770" name="attribute" index="1LMeea" />
       </concept>
+      <concept id="5271775488654833787" name="approvalworkflow.structure.RuleReference" flags="ng" index="1LMeer">
+        <reference id="5271775488654833788" name="rule" index="1LMees" />
+      </concept>
       <concept id="5271775488654833748" name="approvalworkflow.structure.CategoryReference" flags="ng" index="1LMeeO">
         <reference id="5271775488654833749" name="category" index="1LMeeP" />
       </concept>
@@ -44,6 +47,7 @@
       <concept id="1655298788564592749" name="approvalworkflow.structure.Category" flags="ng" index="1Rvykn">
         <child id="1655298788564592757" name="attributes" index="1Rvykf" />
         <child id="1655298788564592778" name="approvers" index="1RvynK" />
+        <child id="1655298788564592781" name="rules" index="1RvynR" />
       </concept>
       <concept id="1655298788564592738" name="approvalworkflow.structure.Requirment" flags="ng" index="1Rvyko">
         <reference id="5271775488654833793" name="supplier" index="1LMedx" />
@@ -88,6 +92,9 @@
       </node>
       <node concept="1LMee9" id="2HVi_sz18Ef" role="1Rvykf">
         <ref role="1LMeea" node="2HVi_sz18E6" resolve="place of origin" />
+      </node>
+      <node concept="1LMeer" id="57hFvthKwgI" role="1RvynR">
+        <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
       </node>
     </node>
   </node>
