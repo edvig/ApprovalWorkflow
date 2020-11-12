@@ -7,6 +7,7 @@
   <imports />
   <registry>
     <language id="f4c726b1-8a9f-431c-a55a-d6c1445e5f46" name="approvalworkflow">
+      <concept id="5895684664945427066" name="approvalworkflow.structure.AttributeWithValue" flags="ng" index="06YYd" />
       <concept id="3133179703876058986" name="approvalworkflow.structure.RuleList" flags="ng" index="9xrkX">
         <child id="3133179703876058989" name="rules" index="9xrkU" />
       </concept>
@@ -42,7 +43,6 @@
         <property id="1655298788564592831" name="criteria" index="1Rvyn5" />
         <property id="1655298788564592828" name="type" index="1Rvyn6" />
         <reference id="5271775488654833816" name="category" index="1LMedS" />
-        <child id="1655298788564592819" name="approvers" index="1Rvyn9" />
       </concept>
       <concept id="1655298788564592749" name="approvalworkflow.structure.Category" flags="ng" index="1Rvykn">
         <child id="1655298788564592757" name="attributes" index="1Rvykf" />
@@ -67,13 +67,13 @@
     <node concept="1RvklD" id="4$D6Y0SToxt" role="1LNsh$">
       <property role="TrG5h" value="Kolos" />
       <property role="1RvykC" value="2" />
-      <node concept="1LMeft" id="HiCB4m7vG6" role="1LMeey">
-        <ref role="1LMefu" node="4$D6Y0SToxv" resolve="Sanyi" />
-      </node>
     </node>
     <node concept="1RvklD" id="4$D6Y0SToxv" role="1LNsh$">
       <property role="TrG5h" value="Sanyi" />
       <property role="1RvykC" value="1" />
+      <node concept="1LMeft" id="57hFvthMouv" role="1LMeey" />
+      <node concept="1LMeft" id="57hFvthMoux" role="1LMeey" />
+      <node concept="1LMeft" id="57hFvthMou$" role="1LMeey" />
     </node>
     <node concept="1RvklD" id="HiCB4m79L5" role="1LNsh$">
       <property role="TrG5h" value="Gergő" />
@@ -87,13 +87,31 @@
     <property role="TrG5h" value="Categories" />
     <node concept="1Rvykn" id="2HVi_syZj6x" role="9xNxI">
       <property role="TrG5h" value="IT stuff" />
-      <node concept="1LMeft" id="2HVi_syZj6z" role="1RvynK">
+      <node concept="1LMeft" id="57hFvthLFda" role="1RvynK">
         <ref role="1LMefu" node="HiCB4m79L5" resolve="Gergő" />
       </node>
       <node concept="1LMee9" id="2HVi_sz18Ef" role="1Rvykf">
         <ref role="1LMeea" node="2HVi_sz18E6" resolve="place of origin" />
       </node>
-      <node concept="1LMeer" id="57hFvthKwgI" role="1RvynR">
+      <node concept="1LMee9" id="57hFvthLFdq" role="1Rvykf">
+        <ref role="1LMeea" node="2HVi_sz18El" resolve="price" />
+      </node>
+      <node concept="1LMeer" id="57hFvthLFdd" role="1RvynR">
+        <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
+      </node>
+      <node concept="1LMeer" id="57hFvthLFdj" role="1RvynR">
+        <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
+      </node>
+    </node>
+    <node concept="1Rvykn" id="57hFvthL8oE" role="9xNxI">
+      <property role="TrG5h" value="Food" />
+      <node concept="1LMee9" id="57hFvthL8oK" role="1Rvykf">
+        <ref role="1LMeea" node="2HVi_sz0Wr8" resolve="weight" />
+      </node>
+      <node concept="1LMeft" id="57hFvthL8oM" role="1RvynK">
+        <ref role="1LMefu" node="4$D6Y0SToxv" resolve="Sanyi" />
+      </node>
+      <node concept="1LMeer" id="57hFvthL8oO" role="1RvynR">
         <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
       </node>
     </node>
@@ -120,20 +138,15 @@
       <property role="TrG5h" value="Price Rule" />
       <property role="1Rvyn6" value="SOROS" />
       <ref role="1LMedS" node="2HVi_syZj6x" resolve="IT stuff" />
-      <node concept="1LMeft" id="2HVi_sz0Wqw" role="1Rvyn9">
-        <ref role="1LMefu" node="4$D6Y0SToxv" resolve="Sanyi" />
-      </node>
     </node>
   </node>
   <node concept="1Rvyko" id="2HVi_sz1kTy">
     <property role="TrG5h" value="New Laptop" />
     <ref role="1LMedD" node="HiCB4m79L5" resolve="Gergő" />
     <ref role="1LMedx" node="4$D6Y0SToxt" resolve="Kolos" />
+    <node concept="06YYd" id="57hFvthMLtO" role="1RvynC" />
     <node concept="1LMeeO" id="2HVi_sz1kTz" role="1Rvykg">
       <ref role="1LMeeP" node="2HVi_syZj6x" resolve="IT stuff" />
-    </node>
-    <node concept="1LMee9" id="2HVi_sz1kT_" role="1RvynC">
-      <ref role="1LMeea" node="2HVi_sz18El" resolve="price" />
     </node>
   </node>
 </model>

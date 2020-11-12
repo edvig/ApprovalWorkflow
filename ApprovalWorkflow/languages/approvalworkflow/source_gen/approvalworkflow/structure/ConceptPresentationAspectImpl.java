@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Attribute;
   private ConceptPresentation props_AttributeList;
   private ConceptPresentation props_AttributeReference;
+  private ConceptPresentation props_AttributeWithValue;
   private ConceptPresentation props_Category;
   private ConceptPresentation props_CategoryList;
   private ConceptPresentation props_CategoryReference;
@@ -57,6 +58,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_AttributeReference = cpb.create();
         }
         return props_AttributeReference;
+      case LanguageConceptSwitch.AttributeWithValue:
+        if (props_AttributeWithValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x51d1adf751ca427aL, 0x51d1adf751ca4281L, "attribute", "", "");
+          props_AttributeWithValue = cpb.create();
+        }
+        return props_AttributeWithValue;
       case LanguageConceptSwitch.Category:
         if (props_Category == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

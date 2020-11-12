@@ -72,7 +72,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "List name:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "User List Name:");
     editorCell.setCellId("Constant_erhyp_a0");
     editorCell.setDefaultText("");
     return editorCell;

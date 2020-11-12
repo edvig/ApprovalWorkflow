@@ -71,7 +71,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Rule list name:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Rule List Name:");
     editorCell.setCellId("Constant_uc5ux5_a0");
     editorCell.setDefaultText("");
     return editorCell;
