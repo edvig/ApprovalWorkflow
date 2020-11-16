@@ -270,7 +270,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_Requirment" />
+      <property role="TrG5h" value="props_Requirement" />
       <node concept="3uibUv" id="$" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -1009,7 +1009,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="4Z" role="37vLTJ">
-                        <ref role="3cqZAo" node="a" resolve="props_Requirment" />
+                        <ref role="3cqZAo" node="a" resolve="props_Requirement" />
                       </node>
                     </node>
                   </node>
@@ -1017,18 +1017,18 @@
                 <node concept="3clFbC" id="4M" role="3clFbw">
                   <node concept="10Nm6u" id="52" role="3uHU7w" />
                   <node concept="37vLTw" id="53" role="3uHU7B">
-                    <ref role="3cqZAo" node="a" resolve="props_Requirment" />
+                    <ref role="3cqZAo" node="a" resolve="props_Requirement" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="4K" role="3cqZAp">
                 <node concept="37vLTw" id="54" role="3cqZAk">
-                  <ref role="3cqZAo" node="a" resolve="props_Requirment" />
+                  <ref role="3cqZAo" node="a" resolve="props_Requirement" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="4I" role="3Kbmr1">
-              <ref role="3cqZAo" node="7P" resolve="Requirment" />
+              <ref role="3cqZAo" node="7P" resolve="Requirement" />
               <ref role="1PxDUh" node="7F" resolve="LanguageConceptSwitch" />
             </node>
           </node>
@@ -1601,7 +1601,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="Requirment" />
+      <property role="TrG5h" value="Requirement" />
       <node concept="3Tm1VV" id="8t" role="1B3o_S" />
       <node concept="10Oyi0" id="8u" role="1tU5fm" />
       <node concept="3cmrfG" id="8v" role="33vP2m">
@@ -1837,7 +1837,7 @@
                 <property role="1adDun" value="0x16f8cd7a6186e862L" />
               </node>
               <node concept="37vLTw" id="9S" role="37wK5m">
-                <ref role="3cqZAo" node="7P" resolve="Requirment" />
+                <ref role="3cqZAo" node="7P" resolve="Requirement" />
               </node>
             </node>
           </node>
@@ -2115,12 +2115,12 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptRequirment" />
+      <property role="TrG5h" value="myConceptRequirement" />
       <node concept="3uibUv" id="bI" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="bJ" role="33vP2m">
-        <ref role="37wK5l" node="bn" resolve="createDescriptorForRequirment" />
+        <ref role="37wK5l" node="bn" resolve="createDescriptorForRequirement" />
       </node>
     </node>
     <node concept="312cEg" id="aU" role="jymVt">
@@ -2296,7 +2296,7 @@
               <ref role="3cqZAo" node="aS" resolve="myConceptCategoryReference" />
             </node>
             <node concept="37vLTw" id="cx" role="37wK5m">
-              <ref role="3cqZAo" node="aT" resolve="myConceptRequirment" />
+              <ref role="3cqZAo" node="aT" resolve="myConceptRequirement" />
             </node>
             <node concept="37vLTw" id="cy" role="37wK5m">
               <ref role="3cqZAo" node="aU" resolve="myConceptRule" />
@@ -2452,12 +2452,12 @@
             <node concept="3clFbS" id="dy" role="3Kbo56">
               <node concept="3cpWs6" id="d$" role="3cqZAp">
                 <node concept="37vLTw" id="d_" role="3cqZAk">
-                  <ref role="3cqZAo" node="aT" resolve="myConceptRequirment" />
+                  <ref role="3cqZAo" node="aT" resolve="myConceptRequirement" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="dz" role="3Kbmr1">
-              <ref role="3cqZAo" node="7P" resolve="Requirment" />
+              <ref role="3cqZAo" node="7P" resolve="Requirement" />
               <ref role="1PxDUh" node="7F" resolve="LanguageConceptSwitch" />
             </node>
           </node>
@@ -4259,7 +4259,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForRequirment" />
+      <property role="TrG5h" value="createDescriptorForRequirement" />
       <node concept="3clFbS" id="nW" role="3clF47">
         <node concept="3cpWs8" id="nZ" role="3cqZAp">
           <node concept="3cpWsn" id="o9" role="3cpWs9">
@@ -4274,7 +4274,7 @@
                   <property role="Xl_RC" value="approvalworkflow" />
                 </node>
                 <node concept="Xl_RD" id="oe" role="37wK5m">
-                  <property role="Xl_RC" value="Requirment" />
+                  <property role="Xl_RC" value="Requirement" />
                 </node>
                 <node concept="1adDum" id="of" role="37wK5m">
                   <property role="1adDun" value="0xf4c726b18a9f431cL" />

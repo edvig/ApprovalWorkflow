@@ -33,7 +33,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="26f04235-e508-4cee-8cc6-55e3353d3d3c/r:d82a6eeb-9c3c-4ad1-81a9-e077c7f46739(TempModule26f04235-e508-4cee-8cc6-55e3353d3d3c/ConsoleModel_45105826311700)">
+            <model ref="37724aef-93fa-4a82-9387-a88962384bb8/r:bb0abae7-35eb-41de-be14-dbe6a6b9e71a(TempModule37724aef-93fa-4a82-9387-a88962384bb8/ConsoleModel_168156950978200)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +53,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="21yYpDYuLJF">
-                <node concept="3balQm" id="21yYpDYuLJG" role="aymYE" />
-                <node concept="2Clz$F" id="21yYpDYuLJH" role="aymYO" />
-                <node concept="2_V_lH" id="21yYpDYuLJI" role="1PhJh3">
-                  <ref role="2_V_lI" node="21yYpDYuLJH" resolve="CommandHolder" />
+              <node concept="aymSD" id="79P6bN_i7Jv">
+                <node concept="3balQm" id="79P6bN_i7Jw" role="aymYE" />
+                <node concept="2Clz$F" id="79P6bN_i7Jx" role="aymYO" />
+                <node concept="2_V_lH" id="79P6bN_i7Jy" role="1PhJh3">
+                  <ref role="2_V_lI" node="79P6bN_i7Jx" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -174,6 +174,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,6 +190,78 @@
               <option name="myItemId" value="approvalworkflow" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ed2fa535-57ae-431d-9dc9-263e7bfa49b3(approvalworkflow.typesystem) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:331fa6a9-bff3-4452-aba3-5015393b5090(approvalworkflow.behavior) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -201,50 +274,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="approvalworkflow" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,22 +282,9 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -277,7 +293,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MPSProjects/Project" />
   </component>
   <component name="RunManager">
     <configuration name="Tests in 'approvalworkflow.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
@@ -331,6 +347,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Kolos\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cefa246a-6749-44ea-afa8-20aa11815813" name="Default Changelist" comment="" />
@@ -365,13 +384,18 @@
       <screen x="0" y="0" width="2276" height="1240" />
     </state>
     <state x="228" y="287" key="#MPSPropertiesConfigurable/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1603634392955" />
+    <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1605532093407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605532093407" />
     <state x="818" y="290" key="CommitChangelistDialog2" timestamp="1605214487495">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="818" y="290" key="CommitChangelistDialog2/2560.360.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605214487495" />
-    <state x="351" y="376" key="FileChooserDialogImpl" timestamp="1603630876831">
-      <screen x="0" y="0" width="2276" height="1240" />
+    <state x="296" y="315" key="FileChooserDialogImpl" timestamp="1605532072560">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="296" y="315" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605532072560" />
     <state x="351" y="376" key="FileChooserDialogImpl/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1603630876831" />
     <state x="1224" y="414" key="IDE.errors.dialog" timestamp="1605220660318">
       <screen x="0" y="0" width="2560" height="1440" />

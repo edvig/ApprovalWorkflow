@@ -1592,7 +1592,7 @@
       <node id="1731362413866063497" at="138,28,139,25" concept="1" />
       <node id="1731362413866063497" at="143,28,144,20" concept="6" />
       <node id="1731362413866063497" at="146,40,147,36" concept="6" />
-      <node id="1731362413866063497" at="149,48,150,36" concept="6" />
+      <node id="1731362413866063497" at="149,48,150,37" concept="6" />
       <node id="1731362413866063497" at="153,57,154,83" concept="5" />
       <node id="1731362413866063497" at="154,83,155,65" concept="1" />
       <node id="1731362413866063497" at="155,65,156,25" concept="6" />
@@ -1713,7 +1713,7 @@
       <node id="1731362413866063497" at="434,34,435,91" concept="1" />
       <node id="1731362413866063497" at="442,0,443,0" concept="8" trace="type$NYdT" />
       <node id="1731362413866063497" at="446,0,447,0" concept="8" trace="PropertyAttribute$Gb" />
-      <node id="1731362413866063497" at="447,0,448,0" concept="8" trace="Requirment$oY" />
+      <node id="1731362413866063497" at="447,0,448,0" concept="8" trace="Requirement$oY" />
       <node id="1731362413866063497" at="448,0,449,0" concept="8" trace="Approval$NB" />
       <node id="1731362413866063497" at="452,0,453,0" concept="8" trace="requirement$NQHp" />
       <node id="1731362413866063497" at="453,0,454,0" concept="8" trace="approvers$NRbr" />
@@ -1813,7 +1813,7 @@
       <scope id="1731362413866063515" at="116,15,117,40" />
       <scope id="1731362413866063497" at="143,28,144,20" />
       <scope id="1731362413866063497" at="146,40,147,36" />
-      <scope id="1731362413866063497" at="149,48,150,36" />
+      <scope id="1731362413866063497" at="149,48,150,37" />
       <scope id="1731362413866063497" at="167,17,168,42" />
       <scope id="1731362413866063497" at="194,34,195,91" />
       <scope id="1731362413866063497" at="223,28,224,20" />
@@ -2041,18 +2041,18 @@
     </file>
   </root>
   <root nodeRef="r:8dbf2cd3-96b8-4a64-b131-8c83bb517c7b(approvalworkflow.editor)/1731362413866063713">
-    <file name="Requirment_Editor.java">
-      <node id="1731362413866063713" at="11,79,12,76" concept="6" />
+    <file name="Requirement_Editor.java">
+      <node id="1731362413866063713" at="11,79,12,77" concept="6" />
       <node id="1731362413866063713" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1731362413866063713" at="11,79,12,76" />
+      <scope id="1731362413866063713" at="11,79,12,77" />
       <scope id="1731362413866063713" at="11,0,14,0">
         <var name="editorContext" id="1731362413866063713" />
         <var name="node" id="1731362413866063713" />
       </scope>
-      <unit id="1731362413866063713" at="10,0,15,0" name="approvalworkflow.editor.Requirment_Editor" />
+      <unit id="1731362413866063713" at="10,0,15,0" name="approvalworkflow.editor.Requirement_Editor" />
     </file>
-    <file name="Requirment_EditorBuilder_a.java">
-      <node id="1731362413866063713" at="54,90,55,19" concept="9" />
+    <file name="Requirement_EditorBuilder_a.java">
+      <node id="1731362413866063713" at="54,91,55,19" concept="9" />
       <node id="1731362413866063713" at="55,19,56,18" concept="1" />
       <node id="1731362413866063713" at="61,26,62,18" concept="6" />
       <node id="1731362413866063713" at="65,39,66,32" concept="6" />
@@ -2304,15 +2304,15 @@
       <node id="1731362413866063713" at="439,0,442,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="5271775488654875744" at="460,0,463,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5271775488654875770" at="482,0,485,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1731362413866063713" at="54,0,58,0" concept="0" trace="Requirment_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1731362413866063713" at="54,0,58,0" concept="0" trace="Requirement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1731362413866063713" at="157,0,161,5" concept="3" />
-      <node id="1731362413866063713" at="245,0,249,0" concept="0" trace="categoryListHandler_muivxz_g0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1731362413866063713" at="245,0,249,0" concept="0" trace="categoryListHandler_yqzqtw_g0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1731362413866063713" at="250,0,254,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1731362413866063713" at="283,97,287,9" concept="3" />
       <node id="1731362413866063713" at="289,95,293,9" concept="3" />
       <node id="1731362413866063713" at="295,74,299,9" concept="3" />
       <node id="1731362413866063713" at="301,96,305,9" concept="3" />
-      <node id="1731362413866063713" at="344,0,348,0" concept="0" trace="attributesListHandler_muivxz_i0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1731362413866063713" at="344,0,348,0" concept="0" trace="attributesListHandler_yqzqtw_i0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1731362413866063713" at="349,0,353,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1731362413866063713" at="382,97,386,9" concept="3" />
       <node id="1731362413866063713" at="388,95,392,9" concept="3" />
@@ -2398,7 +2398,7 @@
       <scope id="5271775488654875744" at="466,28,467,20" />
       <scope id="5271775488654875770" at="482,43,483,120" />
       <scope id="5271775488654875770" at="491,17,492,42" />
-      <scope id="1731362413866063713" at="54,90,56,18" />
+      <scope id="1731362413866063713" at="54,91,56,18" />
       <scope id="1731362413866063728" at="124,74,126,145">
         <var name="manager" id="1731362413866063728" />
       </scope>
@@ -2625,23 +2625,23 @@
         <var name="style" id="1731362413866063713" />
       </scope>
       <scope id="1731362413866063713" at="139,0,178,0" />
-      <unit id="1731362413866063713" at="497,0,500,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$PROPS" />
-      <unit id="1731362413866063728" at="119,102,123,7" name="approvalworkflow.editor.Requirment_EditorBuilder_a$1" />
-      <unit id="1731362413866063713" at="143,74,147,9" name="approvalworkflow.editor.Requirment_EditorBuilder_a$2$1" />
-      <unit id="1731362413866063713" at="167,102,171,5" name="approvalworkflow.editor.Requirment_EditorBuilder_a$3" />
-      <unit id="5271775488654875697" at="210,104,214,9" name="approvalworkflow.editor.Requirment_EditorBuilder_a$Inline_Builder0$1" />
-      <unit id="1731362413866063713" at="417,74,421,9" name="approvalworkflow.editor.Requirment_EditorBuilder_a$4$1" />
-      <unit id="1731362413866063713" at="438,102,442,5" name="approvalworkflow.editor.Requirment_EditorBuilder_a$5" />
-      <unit id="5271775488654875770" at="481,104,485,9" name="approvalworkflow.editor.Requirment_EditorBuilder_a$Inline_Builder1$1" />
-      <unit id="1731362413866063713" at="501,0,507,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$CONCEPTS" />
-      <unit id="1731362413866063713" at="508,0,514,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$LINKS" />
-      <unit id="1731362413866063713" at="141,42,153,5" name="approvalworkflow.editor.Requirment_EditorBuilder_a$2" />
-      <unit id="1731362413866063713" at="415,42,427,5" name="approvalworkflow.editor.Requirment_EditorBuilder_a$4" />
-      <unit id="5271775488654875671" at="178,0,225,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5271775488654875744" at="449,0,496,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$Inline_Builder1" />
-      <unit id="1731362413866063713" at="340,0,407,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$attributesListHandler_muivxz_i0" />
-      <unit id="1731362413866063713" at="241,0,321,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a$categoryListHandler_muivxz_g0" />
-      <unit id="1731362413866063713" at="50,0,515,0" name="approvalworkflow.editor.Requirment_EditorBuilder_a" />
+      <unit id="1731362413866063713" at="497,0,500,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$PROPS" />
+      <unit id="1731362413866063728" at="119,102,123,7" name="approvalworkflow.editor.Requirement_EditorBuilder_a$1" />
+      <unit id="1731362413866063713" at="143,74,147,9" name="approvalworkflow.editor.Requirement_EditorBuilder_a$2$1" />
+      <unit id="1731362413866063713" at="167,102,171,5" name="approvalworkflow.editor.Requirement_EditorBuilder_a$3" />
+      <unit id="5271775488654875697" at="210,104,214,9" name="approvalworkflow.editor.Requirement_EditorBuilder_a$Inline_Builder0$1" />
+      <unit id="1731362413866063713" at="417,74,421,9" name="approvalworkflow.editor.Requirement_EditorBuilder_a$4$1" />
+      <unit id="1731362413866063713" at="438,102,442,5" name="approvalworkflow.editor.Requirement_EditorBuilder_a$5" />
+      <unit id="5271775488654875770" at="481,104,485,9" name="approvalworkflow.editor.Requirement_EditorBuilder_a$Inline_Builder1$1" />
+      <unit id="1731362413866063713" at="501,0,507,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$CONCEPTS" />
+      <unit id="1731362413866063713" at="508,0,514,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$LINKS" />
+      <unit id="1731362413866063713" at="141,42,153,5" name="approvalworkflow.editor.Requirement_EditorBuilder_a$2" />
+      <unit id="1731362413866063713" at="415,42,427,5" name="approvalworkflow.editor.Requirement_EditorBuilder_a$4" />
+      <unit id="5271775488654875671" at="178,0,225,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$Inline_Builder0" />
+      <unit id="5271775488654875744" at="449,0,496,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$Inline_Builder1" />
+      <unit id="1731362413866063713" at="340,0,407,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$attributesListHandler_yqzqtw_i0" />
+      <unit id="1731362413866063713" at="241,0,321,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a$categoryListHandler_yqzqtw_g0" />
+      <unit id="1731362413866063713" at="50,0,515,0" name="approvalworkflow.editor.Requirement_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:8dbf2cd3-96b8-4a64-b131-8c83bb517c7b(approvalworkflow.editor)/3133179703875891785">

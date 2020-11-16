@@ -1,8 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="7,0,11,0" name="approvalworkflow.typesystem.TypesystemDescriptor" />
+      <unit at="8,0,28,0" name="approvalworkflow.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ed2fa535-57ae-431d-9dc9-263e7bfa49b3(approvalworkflow.typesystem)/8247525492178932372">
+    <file name="TypesystemDescriptor.java">
+      <node id="8247525492178932372" at="22,5,23,90" concept="5" />
+      <node id="8247525492178932372" at="23,90,24,55" concept="2" />
+      <node id="8247525492178932372" at="21,5,25,5" concept="0" />
+      <scope id="8247525492178932372" at="22,5,24,55">
+        <var name="nonTypesystemRule" id="8247525492178932372" />
+      </scope>
+    </file>
+    <file name="UserReference_NonTypesystemRule.java">
+      <node id="8247525492178992366" at="32,39,33,273" concept="6" />
+      <node id="8247525492179007062" at="36,7,37,66" concept="5" />
+      <node id="8247525492179007062" at="37,66,38,344" concept="5" />
+      <node id="8247525492179193021" at="42,39,43,116" concept="6" />
+      <node id="8247525492179201438" at="46,7,47,66" concept="5" />
+      <node id="8247525492179201438" at="47,66,48,251" concept="5" />
+      <node id="8247525492179250907" at="54,43,55,120" concept="6" />
+      <node id="8247525492179257885" at="60,7,61,66" concept="5" />
+      <node id="8247525492179257885" at="61,66,62,248" concept="5" />
+      <node id="8247525492178932372" at="66,50,67,37" concept="6" />
+      <node id="8247525492178932372" at="69,68,70,102" concept="6" />
+      <node id="8247525492178932372" at="72,30,73,17" concept="6" />
+      <node id="8247525492178932372" at="77,0,78,0" concept="7" trace="User$eb" />
+      <node id="8247525492178932372" at="78,0,79,0" concept="7" trace="UserReference$zN" />
+      <node id="8247525492178932372" at="82,0,83,0" concept="7" trace="superior$REH4" />
+      <node id="8247525492178932372" at="83,0,84,0" concept="7" trace="user$7rbj" />
+      <node id="8247525492178932372" at="87,0,88,0" concept="7" trace="name$MnvL" />
+      <node id="8247525492178932372" at="28,0,30,0" concept="1" trace="UserReference_NonTypesystemRule#()V" />
+      <node id="8247525492178992227" at="32,0,35,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492179192296" at="42,0,45,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492179250454" at="54,0,57,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492178932372" at="66,0,69,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8247525492178932372" at="69,0,72,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8247525492178932372" at="72,0,75,0" concept="4" trace="overrides#()Z" />
+      <node id="8247525492179007062" at="35,9,39,7" concept="0" />
+      <node id="8247525492179201438" at="45,9,49,7" concept="0" />
+      <node id="8247525492179257885" at="59,9,63,7" concept="0" />
+      <node id="8247525492179240878" at="52,39,57,11" concept="6" />
+      <node id="8247525492179240771" at="52,0,59,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492178976620" at="30,126,40,5" concept="3" />
+      <node id="8247525492179161971" at="40,5,50,5" concept="3" />
+      <node id="8247525492179219501" at="50,5,64,5" concept="3" />
+      <node id="8247525492178932372" at="30,0,66,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8247525492178932372" at="28,44,28,44" />
+      <scope id="8247525492178992228" at="32,39,33,273" />
+      <scope id="8247525492179192297" at="42,39,43,116" />
+      <scope id="8247525492179250455" at="54,43,55,120" />
+      <scope id="8247525492178932372" at="66,50,67,37" />
+      <scope id="8247525492178932372" at="69,68,70,102" />
+      <scope id="8247525492178932372" at="72,30,73,17" />
+      <scope id="8247525492178932372" at="28,0,30,0" />
+      <scope id="8247525492179007062" at="36,7,38,344">
+        <var name="_reporter_2309309498" id="8247525492179007062" />
+        <var name="errorTarget" id="8247525492179007062" />
+      </scope>
+      <scope id="8247525492179201438" at="46,7,48,251">
+        <var name="_reporter_2309309498" id="8247525492179201438" />
+        <var name="errorTarget" id="8247525492179201438" />
+      </scope>
+      <scope id="8247525492179257885" at="60,7,62,248">
+        <var name="_reporter_2309309498" id="8247525492179257885" />
+        <var name="errorTarget" id="8247525492179257885" />
+      </scope>
+      <scope id="8247525492178992227" at="32,0,35,0">
+        <var name="it" id="8247525492178992227" />
+      </scope>
+      <scope id="8247525492179192296" at="42,0,45,0">
+        <var name="it" id="8247525492179192296" />
+      </scope>
+      <scope id="8247525492179250454" at="54,0,57,0">
+        <var name="it" id="8247525492179250454" />
+      </scope>
+      <scope id="8247525492178932372" at="66,0,69,0" />
+      <scope id="8247525492178932372" at="69,0,72,0">
+        <var name="argument" id="8247525492178932372" />
+      </scope>
+      <scope id="8247525492178932372" at="72,0,75,0" />
+      <scope id="8247525492178976622" at="35,9,39,7" />
+      <scope id="8247525492179161973" at="45,9,49,7" />
+      <scope id="8247525492179219503" at="59,9,63,7" />
+      <scope id="8247525492179240772" at="52,39,57,11" />
+      <scope id="8247525492179240771" at="52,0,59,0">
+        <var name="it" id="8247525492179240771" />
+      </scope>
+      <scope id="8247525492178932373" at="30,126,64,5" />
+      <scope id="8247525492178932372" at="30,0,66,0">
+        <var name="status" id="8247525492178932372" />
+        <var name="typeCheckingContext" id="8247525492178932372" />
+        <var name="userReference" id="8247525492178932372" />
+      </scope>
+      <unit id="8247525492178932372" at="86,0,89,0" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$PROPS" />
+      <unit id="8247525492178992227" at="31,170,35,5" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$1" />
+      <unit id="8247525492179192296" at="41,189,45,5" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$2" />
+      <unit id="8247525492179250454" at="53,141,57,9" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$3$1" />
+      <unit id="8247525492178932372" at="76,0,80,0" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$CONCEPTS" />
+      <unit id="8247525492178932372" at="81,0,85,0" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$LINKS" />
+      <unit id="8247525492179240771" at="51,189,59,5" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule$3" />
+      <unit id="8247525492178932372" at="27,0,90,0" name="approvalworkflow.typesystem.UserReference_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:ed2fa535-57ae-431d-9dc9-263e7bfa49b3(approvalworkflow.typesystem)/8247525492179044495">
+    <file name="TypesystemDescriptor.java">
+      <node id="8247525492179044495" at="18,5,19,81" concept="5" />
+      <node id="8247525492179044495" at="19,81,20,55" concept="2" />
+      <node id="8247525492179044495" at="17,5,21,5" concept="0" />
+      <scope id="8247525492179044495" at="18,5,20,55">
+        <var name="nonTypesystemRule" id="8247525492179044495" />
+      </scope>
+    </file>
+    <file name="User_NonTypesystemRule.java">
+      <node id="8247525492179139627" at="30,39,31,167" concept="6" />
+      <node id="8247525492179075978" at="34,7,35,66" concept="5" />
+      <node id="8247525492179075978" at="35,66,36,224" concept="5" />
+      <node id="8247525492179044495" at="40,50,41,28" concept="6" />
+      <node id="8247525492179044495" at="43,68,44,102" concept="6" />
+      <node id="8247525492179044495" at="46,30,47,17" concept="6" />
+      <node id="8247525492179044495" at="51,0,52,0" concept="7" trace="UserList$hj" />
+      <node id="8247525492179044495" at="52,0,53,0" concept="7" trace="User$eb" />
+      <node id="8247525492179044495" at="56,0,57,0" concept="7" trace="users$MhVj" />
+      <node id="8247525492179044495" at="60,0,61,0" concept="7" trace="name$MnvL" />
+      <node id="8247525492179044495" at="26,0,28,0" concept="1" trace="User_NonTypesystemRule#()V" />
+      <node id="8247525492179139482" at="30,0,33,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492179044495" at="40,0,43,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8247525492179044495" at="43,0,46,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8247525492179044495" at="46,0,49,0" concept="4" trace="overrides#()Z" />
+      <node id="8247525492179075978" at="33,9,37,7" concept="0" />
+      <node id="8247525492179044502" at="28,117,38,5" concept="3" />
+      <node id="8247525492179044495" at="28,0,40,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8247525492179044495" at="26,35,26,35" />
+      <scope id="8247525492179139483" at="30,39,31,167" />
+      <scope id="8247525492179044495" at="40,50,41,28" />
+      <scope id="8247525492179044495" at="43,68,44,102" />
+      <scope id="8247525492179044495" at="46,30,47,17" />
+      <scope id="8247525492179044495" at="26,0,28,0" />
+      <scope id="8247525492179075978" at="34,7,36,224">
+        <var name="_reporter_2309309498" id="8247525492179075978" />
+        <var name="errorTarget" id="8247525492179075978" />
+      </scope>
+      <scope id="8247525492179139482" at="30,0,33,0">
+        <var name="it" id="8247525492179139482" />
+      </scope>
+      <scope id="8247525492179044495" at="40,0,43,0" />
+      <scope id="8247525492179044495" at="43,0,46,0">
+        <var name="argument" id="8247525492179044495" />
+      </scope>
+      <scope id="8247525492179044495" at="46,0,49,0" />
+      <scope id="8247525492179044504" at="33,9,37,7" />
+      <scope id="8247525492179044496" at="28,117,38,5" />
+      <scope id="8247525492179044495" at="28,0,40,0">
+        <var name="status" id="8247525492179044495" />
+        <var name="typeCheckingContext" id="8247525492179044495" />
+        <var name="user" id="8247525492179044495" />
+      </scope>
+      <unit id="8247525492179044495" at="55,0,58,0" name="approvalworkflow.typesystem.User_NonTypesystemRule$LINKS" />
+      <unit id="8247525492179044495" at="59,0,62,0" name="approvalworkflow.typesystem.User_NonTypesystemRule$PROPS" />
+      <unit id="8247525492179139482" at="29,162,33,5" name="approvalworkflow.typesystem.User_NonTypesystemRule$1" />
+      <unit id="8247525492179044495" at="50,0,54,0" name="approvalworkflow.typesystem.User_NonTypesystemRule$CONCEPTS" />
+      <unit id="8247525492179044495" at="25,0,63,0" name="approvalworkflow.typesystem.User_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:ed2fa535-57ae-431d-9dc9-263e7bfa49b3(approvalworkflow.typesystem)/8247525492179716080">
+    <file name="Rule_NonTypesystemRule.java">
+      <node id="8247525492179736836" at="28,39,29,40" concept="6" />
+      <node id="8247525492179738748" at="32,7,33,66" concept="5" />
+      <node id="8247525492179738748" at="33,66,34,242" concept="5" />
+      <node id="8247525492179716080" at="38,50,39,28" concept="6" />
+      <node id="8247525492179716080" at="41,68,42,102" concept="6" />
+      <node id="8247525492179716080" at="44,30,45,17" concept="6" />
+      <node id="8247525492179716080" at="49,0,50,0" concept="7" trace="category$i7Ba" />
+      <node id="8247525492179716080" at="50,0,51,0" concept="7" trace="rules$KSvA" />
+      <node id="8247525492179716080" at="51,0,52,0" concept="7" trace="rule$88Hj" />
+      <node id="8247525492179716080" at="55,0,56,0" concept="7" trace="Rule$N8" />
+      <node id="8247525492179716080" at="24,0,26,0" concept="1" trace="Rule_NonTypesystemRule#()V" />
+      <node id="8247525492179736834" at="28,0,31,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492179716080" at="38,0,41,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8247525492179716080" at="41,0,44,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8247525492179716080" at="44,0,47,0" concept="4" trace="overrides#()Z" />
+      <node id="8247525492179738748" at="31,11,35,7" concept="0" />
+      <node id="8247525492179716087" at="26,117,36,5" concept="3" />
+      <node id="8247525492179716080" at="26,0,38,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8247525492179716080" at="24,35,24,35" />
+      <scope id="8247525492179736835" at="28,39,29,40" />
+      <scope id="8247525492179716080" at="38,50,39,28" />
+      <scope id="8247525492179716080" at="41,68,42,102" />
+      <scope id="8247525492179716080" at="44,30,45,17" />
+      <scope id="8247525492179716080" at="24,0,26,0" />
+      <scope id="8247525492179738748" at="32,7,34,242">
+        <var name="_reporter_2309309498" id="8247525492179738748" />
+        <var name="errorTarget" id="8247525492179738748" />
+      </scope>
+      <scope id="8247525492179736834" at="28,0,31,0">
+        <var name="it" id="8247525492179736834" />
+      </scope>
+      <scope id="8247525492179716080" at="38,0,41,0" />
+      <scope id="8247525492179716080" at="41,0,44,0">
+        <var name="argument" id="8247525492179716080" />
+      </scope>
+      <scope id="8247525492179716080" at="44,0,47,0" />
+      <scope id="8247525492179716089" at="31,11,35,7" />
+      <scope id="8247525492179716081" at="26,117,36,5" />
+      <scope id="8247525492179716080" at="26,0,38,0">
+        <var name="rule" id="8247525492179716080" />
+        <var name="status" id="8247525492179716080" />
+        <var name="typeCheckingContext" id="8247525492179716080" />
+      </scope>
+      <unit id="8247525492179716080" at="54,0,57,0" name="approvalworkflow.typesystem.Rule_NonTypesystemRule$CONCEPTS" />
+      <unit id="8247525492179736834" at="27,184,31,5" name="approvalworkflow.typesystem.Rule_NonTypesystemRule$1" />
+      <unit id="8247525492179716080" at="48,0,53,0" name="approvalworkflow.typesystem.Rule_NonTypesystemRule$LINKS" />
+      <unit id="8247525492179716080" at="23,0,58,0" name="approvalworkflow.typesystem.Rule_NonTypesystemRule" />
+    </file>
+    <file name="TypesystemDescriptor.java">
+      <node id="8247525492179716080" at="10,5,11,81" concept="5" />
+      <node id="8247525492179716080" at="11,81,12,55" concept="2" />
+      <node id="8247525492179716080" at="9,33,13,5" concept="0" />
+      <scope id="8247525492179716080" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="8247525492179716080" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:ed2fa535-57ae-431d-9dc9-263e7bfa49b3(approvalworkflow.typesystem)/8247525492179787421">
+    <file name="RuleReference_NonTypesystemRule.java">
+      <node id="8247525492179804966" at="29,39,30,177" concept="6" />
+      <node id="8247525492179814997" at="33,7,34,66" concept="5" />
+      <node id="8247525492179814997" at="34,66,35,312" concept="5" />
+      <node id="8247525492179787421" at="39,50,40,37" concept="6" />
+      <node id="8247525492179787421" at="42,68,43,102" concept="6" />
+      <node id="8247525492179787421" at="45,30,46,17" concept="6" />
+      <node id="8247525492179787421" at="50,0,51,0" concept="7" trace="Category$Cu" />
+      <node id="8247525492179787421" at="51,0,52,0" concept="7" trace="RuleReference$YR" />
+      <node id="8247525492179787421" at="55,0,56,0" concept="7" trace="rules$KSvA" />
+      <node id="8247525492179787421" at="56,0,57,0" concept="7" trace="rule$88Hj" />
+      <node id="8247525492179787421" at="25,0,27,0" concept="1" trace="RuleReference_NonTypesystemRule#()V" />
+      <node id="8247525492179804740" at="29,0,32,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8247525492179787421" at="39,0,42,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8247525492179787421" at="42,0,45,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8247525492179787421" at="45,0,48,0" concept="4" trace="overrides#()Z" />
+      <node id="8247525492179814997" at="32,9,36,7" concept="0" />
+      <node id="8247525492179787428" at="27,126,37,5" concept="3" />
+      <node id="8247525492179787421" at="27,0,39,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8247525492179787421" at="25,44,25,44" />
+      <scope id="8247525492179804741" at="29,39,30,177" />
+      <scope id="8247525492179787421" at="39,50,40,37" />
+      <scope id="8247525492179787421" at="42,68,43,102" />
+      <scope id="8247525492179787421" at="45,30,46,17" />
+      <scope id="8247525492179787421" at="25,0,27,0" />
+      <scope id="8247525492179814997" at="33,7,35,312">
+        <var name="_reporter_2309309498" id="8247525492179814997" />
+        <var name="errorTarget" id="8247525492179814997" />
+      </scope>
+      <scope id="8247525492179804740" at="29,0,32,0">
+        <var name="it" id="8247525492179804740" />
+      </scope>
+      <scope id="8247525492179787421" at="39,0,42,0" />
+      <scope id="8247525492179787421" at="42,0,45,0">
+        <var name="argument" id="8247525492179787421" />
+      </scope>
+      <scope id="8247525492179787421" at="45,0,48,0" />
+      <scope id="8247525492179787430" at="32,9,36,7" />
+      <scope id="8247525492179787422" at="27,126,37,5" />
+      <scope id="8247525492179787421" at="27,0,39,0">
+        <var name="ruleReference" id="8247525492179787421" />
+        <var name="status" id="8247525492179787421" />
+        <var name="typeCheckingContext" id="8247525492179787421" />
+      </scope>
+      <unit id="8247525492179804740" at="28,171,32,5" name="approvalworkflow.typesystem.RuleReference_NonTypesystemRule$1" />
+      <unit id="8247525492179787421" at="49,0,53,0" name="approvalworkflow.typesystem.RuleReference_NonTypesystemRule$CONCEPTS" />
+      <unit id="8247525492179787421" at="54,0,58,0" name="approvalworkflow.typesystem.RuleReference_NonTypesystemRule$LINKS" />
+      <unit id="8247525492179787421" at="24,0,59,0" name="approvalworkflow.typesystem.RuleReference_NonTypesystemRule" />
+    </file>
+    <file name="TypesystemDescriptor.java">
+      <node id="8247525492179787421" at="14,5,15,90" concept="5" />
+      <node id="8247525492179787421" at="15,90,16,55" concept="2" />
+      <node id="8247525492179787421" at="13,5,17,5" concept="0" />
+      <scope id="8247525492179787421" at="14,5,16,55">
+        <var name="nonTypesystemRule" id="8247525492179787421" />
+      </scope>
     </file>
   </root>
 </debug-info>

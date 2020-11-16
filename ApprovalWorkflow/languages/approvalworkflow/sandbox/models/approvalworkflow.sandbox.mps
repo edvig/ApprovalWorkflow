@@ -46,13 +46,14 @@
         <property id="1655298788564592831" name="criteria" index="1Rvyn5" />
         <property id="1655298788564592828" name="type" index="1Rvyn6" />
         <reference id="5271775488654833816" name="category" index="1LMedS" />
+        <child id="1655298788564592819" name="approvers" index="1Rvyn9" />
       </concept>
       <concept id="1655298788564592749" name="approvalworkflow.structure.Category" flags="ng" index="1Rvykn">
         <child id="1655298788564592757" name="attributes" index="1Rvykf" />
         <child id="1655298788564592778" name="approvers" index="1RvynK" />
         <child id="1655298788564592781" name="rules" index="1RvynR" />
       </concept>
-      <concept id="1655298788564592738" name="approvalworkflow.structure.Requirment" flags="ng" index="1Rvyko">
+      <concept id="1655298788564592738" name="approvalworkflow.structure.Requirement" flags="ng" index="1Rvyko">
         <reference id="5271775488654833793" name="supplier" index="1LMedx" />
         <reference id="5271775488654833801" name="requiror" index="1LMedD" />
         <child id="1655298788564592746" name="category" index="1Rvykg" />
@@ -74,12 +75,6 @@
     <node concept="1RvklD" id="4$D6Y0SToxv" role="1LNsh$">
       <property role="TrG5h" value="Sanyi" />
       <property role="1RvykC" value="1" />
-      <node concept="1LMeft" id="21yYpDYv_vX" role="1LMeey">
-        <ref role="1LMefu" node="HiCB4m79L5" resolve="Gergő" />
-      </node>
-      <node concept="1LMeft" id="21yYpDYv_w2" role="1LMeey">
-        <ref role="1LMefu" node="4$D6Y0SToxt" resolve="Kolos" />
-      </node>
     </node>
     <node concept="1RvklD" id="HiCB4m79L5" role="1LNsh$">
       <property role="TrG5h" value="Gergő" />
@@ -105,9 +100,6 @@
       <node concept="1LMeer" id="57hFvthLFdd" role="1RvynR">
         <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
       </node>
-      <node concept="1LMeer" id="57hFvthLFdj" role="1RvynR">
-        <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
-      </node>
     </node>
     <node concept="1Rvykn" id="57hFvthL8oE" role="9xNxI">
       <property role="TrG5h" value="Food" />
@@ -117,8 +109,11 @@
       <node concept="1LMeft" id="57hFvthL8oM" role="1RvynK">
         <ref role="1LMefu" node="4$D6Y0SToxv" resolve="Sanyi" />
       </node>
-      <node concept="1LMeer" id="57hFvthL8oO" role="1RvynR">
+      <node concept="1LMeer" id="79P6bN_mDeB" role="1RvynR">
         <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
+      </node>
+      <node concept="1LMeer" id="79P6bN_mDeT" role="1RvynR">
+        <ref role="1LMees" node="79P6bN_mk5e" resolve="Food Rule" />
       </node>
     </node>
   </node>
@@ -144,6 +139,15 @@
       <property role="TrG5h" value="Price Rule" />
       <property role="1Rvyn6" value="SOROS" />
       <ref role="1LMedS" node="2HVi_syZj6x" resolve="IT stuff" />
+      <node concept="1LMeft" id="79P6bN_lnHc" role="1Rvyn9">
+        <ref role="1LMefu" node="HiCB4m79L5" resolve="Gergő" />
+      </node>
+    </node>
+    <node concept="1Rvykk" id="79P6bN_mk5e" role="9xrkU">
+      <property role="TrG5h" value="Food Rule" />
+      <property role="1Rvyn6" value="none" />
+      <property role="1Rvyn5" value="none" />
+      <ref role="1LMedS" node="57hFvthL8oE" resolve="Food" />
     </node>
   </node>
   <node concept="1Rvyko" id="2HVi_sz1kTy">

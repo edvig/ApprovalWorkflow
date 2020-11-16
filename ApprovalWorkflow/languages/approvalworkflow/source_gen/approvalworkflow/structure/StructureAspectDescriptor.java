@@ -21,7 +21,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCategory = createDescriptorForCategory();
   /*package*/ final ConceptDescriptor myConceptCategoryList = createDescriptorForCategoryList();
   /*package*/ final ConceptDescriptor myConceptCategoryReference = createDescriptorForCategoryReference();
-  /*package*/ final ConceptDescriptor myConceptRequirment = createDescriptorForRequirment();
+  /*package*/ final ConceptDescriptor myConceptRequirement = createDescriptorForRequirement();
   /*package*/ final ConceptDescriptor myConceptRule = createDescriptorForRule();
   /*package*/ final ConceptDescriptor myConceptRuleList = createDescriptorForRuleList();
   /*package*/ final ConceptDescriptor myConceptRuleReference = createDescriptorForRuleReference();
@@ -42,7 +42,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptApproval, myConceptAttribute, myConceptAttributeList, myConceptAttributeReference, myConceptAttributeWithValue, myConceptCategory, myConceptCategoryList, myConceptCategoryReference, myConceptRequirment, myConceptRule, myConceptRuleList, myConceptRuleReference, myConceptUser, myConceptUserList, myConceptUserReference);
+    return Arrays.asList(myConceptApproval, myConceptAttribute, myConceptAttributeList, myConceptAttributeReference, myConceptAttributeWithValue, myConceptCategory, myConceptCategoryList, myConceptCategoryReference, myConceptRequirement, myConceptRule, myConceptRuleList, myConceptRuleReference, myConceptUser, myConceptUserList, myConceptUserReference);
   }
 
   @Override
@@ -65,8 +65,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptCategoryList;
       case LanguageConceptSwitch.CategoryReference:
         return myConceptCategoryReference;
-      case LanguageConceptSwitch.Requirment:
-        return myConceptRequirment;
+      case LanguageConceptSwitch.Requirement:
+        return myConceptRequirement;
       case LanguageConceptSwitch.Rule:
         return myConceptRule;
       case LanguageConceptSwitch.RuleList:
@@ -164,8 +164,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.associate("category", 0x49291be038e1f855L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86dL).optional(false).origin("5271775488654833749").done();
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForRequirment() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "Requirment", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L);
+  private static ConceptDescriptor createDescriptorForRequirement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "Requirement", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/1655298788564592738");

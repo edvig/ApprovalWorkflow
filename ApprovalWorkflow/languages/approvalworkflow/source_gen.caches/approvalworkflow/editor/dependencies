@@ -457,7 +457,7 @@
     <classNode dependClassName="approvalworkflow.editor.CategoryReference_Editor" />
     <classNode dependClassName="approvalworkflow.editor.CategoryReference_SubstituteMenu" />
     <classNode dependClassName="approvalworkflow.editor.Category_Editor" />
-    <classNode dependClassName="approvalworkflow.editor.Requirment_Editor" />
+    <classNode dependClassName="approvalworkflow.editor.Requirement_Editor" />
     <classNode dependClassName="approvalworkflow.editor.RuleList_Editor" />
     <classNode dependClassName="approvalworkflow.editor.RuleReference_Editor" />
     <classNode dependClassName="approvalworkflow.editor.RuleReference_SubstituteMenu" />
@@ -479,14 +479,14 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.EditorAspectDescriptorBase" />
   </dependency>
-  <dependency className="approvalworkflow.editor.Requirment_Editor">
-    <classNode dependClassName="approvalworkflow.editor.Requirment_EditorBuilder_a" />
+  <dependency className="approvalworkflow.editor.Requirement_Editor">
+    <classNode dependClassName="approvalworkflow.editor.Requirement_EditorBuilder_a" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="approvalworkflow.editor.Requirment_EditorBuilder_a">
+  <dependency className="approvalworkflow.editor.Requirement_EditorBuilder_a">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />

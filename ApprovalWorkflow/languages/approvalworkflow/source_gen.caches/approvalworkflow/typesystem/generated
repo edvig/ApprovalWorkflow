@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-3s4bvwsw3018x4w3cipyil93j3fjb53">
-  <files names="TypesystemDescriptor.java" />
+<product version="3" modelHash="bpkjischf38vdszhq8e0nsr773bodpv">
+  <files names="RuleReference_NonTypesystemRule.java:Rule_NonTypesystemRule.java:TypesystemDescriptor.java:UserReference_NonTypesystemRule.java:User_NonTypesystemRule.java" />
 </product>
 

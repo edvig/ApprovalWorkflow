@@ -147,7 +147,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.requirement$NQHp;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Requirment$oY;
+      return CONCEPTS.Requirement$oY;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -444,7 +444,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$Gb = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
-    /*package*/ static final SConcept Requirment$oY = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L, "approvalworkflow.structure.Requirment");
+    /*package*/ static final SConcept Requirement$oY = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L, "approvalworkflow.structure.Requirement");
     /*package*/ static final SConcept Approval$NB = MetaAdapterFactory.getConcept(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86fL, "approvalworkflow.structure.Approval");
   }
 

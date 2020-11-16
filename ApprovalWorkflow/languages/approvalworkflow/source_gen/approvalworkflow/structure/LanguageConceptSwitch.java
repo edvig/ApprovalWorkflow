@@ -17,7 +17,7 @@ public final class LanguageConceptSwitch {
   public static final int Category = 5;
   public static final int CategoryList = 6;
   public static final int CategoryReference = 7;
-  public static final int Requirment = 8;
+  public static final int Requirement = 8;
   public static final int Rule = 9;
   public static final int RuleList = 10;
   public static final int RuleReference = 11;
@@ -35,7 +35,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x16f8cd7a6186e86dL, Category);
     builder.put(0x2b7b4a5722fc7236L, CategoryList);
     builder.put(0x49291be038e1f854L, CategoryReference);
-    builder.put(0x16f8cd7a6186e862L, Requirment);
+    builder.put(0x16f8cd7a6186e862L, Requirement);
     builder.put(0x16f8cd7a6186e86eL, Rule);
     builder.put(0x2b7b4a5722feff6aL, RuleList);
     builder.put(0x49291be038e1f87bL, RuleReference);

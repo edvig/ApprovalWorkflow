@@ -35,7 +35,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 7:
         return Collections.<ConceptEditor>singletonList(new CategoryReference_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new Requirment_Editor());
+        return Collections.<ConceptEditor>singletonList(new Requirement_Editor());
       case 9:
         return Collections.<ConceptEditor>singletonList(new Rule_Editor());
       case 10:

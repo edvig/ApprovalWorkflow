@@ -63,7 +63,7 @@
   </node>
   <node concept="1TIwiD" id="1rSNnDxxIxy">
     <property role="EcuMT" value="1655298788564592738" />
-    <property role="TrG5h" value="Requirment" />
+    <property role="TrG5h" value="Requirement" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1rSNnDxxIxE" role="1TKVEi">
@@ -167,7 +167,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="requirement" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1rSNnDxxIxy" resolve="Requirment" />
+      <ref role="20lvS9" node="1rSNnDxxIxy" resolve="Requirement" />
     </node>
     <node concept="1TJgyj" id="1rSNnDxxIz5" role="1TKVEi">
       <property role="IQ2ns" value="1655298788564592837" />

@@ -6,6 +6,9 @@ import jetbrains.mps.smodel.runtime.BaseConstraintsAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.lang.smodel.ConceptSwitchIndex;
+import jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -14,6 +17,30 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
   @Override
   public ConstraintsDescriptor getConstraints(SAbstractConcept concept) {
     SAbstractConcept cncpt = concept;
+    switch (conceptIndex.index(cncpt)) {
+      case 0:
+        return new Approval_Constraints();
+      case 1:
+        return new Attribute_Constraints();
+      case 2:
+        return new AttributeList_Constraints();
+      case 3:
+        return new Category_Constraints();
+      case 4:
+        return new CategoryList_Constraints();
+      case 5:
+        return new Requirement_Constraints();
+      case 6:
+        return new Rule_Constraints();
+      case 7:
+        return new RuleList_Constraints();
+      case 8:
+        return new User_Constraints();
+      case 9:
+        return new UserList_Constraints();
+      default:
+    }
     return new BaseConstraintsDescriptor(concept);
   }
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86fL), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e877L), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x2b7b4a5722feffbdL), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86dL), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x2b7b4a5722fc7236L), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e862L), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e86eL), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x2b7b4a5722feff6aL), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L), MetaIdFactory.conceptId(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x49291be038e4df83L)).seal();
 }
