@@ -7,7 +7,10 @@
   <imports />
   <registry>
     <language id="f4c726b1-8a9f-431c-a55a-d6c1445e5f46" name="approvalworkflow">
-      <concept id="5895684664945427066" name="approvalworkflow.structure.AttributeWithValue" flags="ng" index="06YYd" />
+      <concept id="5895684664945427066" name="approvalworkflow.structure.AttributeWithValue" flags="ng" index="06YYd">
+        <property id="5895684664945427067" name="value" index="06YYc" />
+        <reference id="5895684664945427073" name="attribute" index="06YXQ" />
+      </concept>
       <concept id="3133179703876058986" name="approvalworkflow.structure.RuleList" flags="ng" index="9xrkX">
         <child id="3133179703876058989" name="rules" index="9xrkU" />
       </concept>
@@ -71,9 +74,12 @@
     <node concept="1RvklD" id="4$D6Y0SToxv" role="1LNsh$">
       <property role="TrG5h" value="Sanyi" />
       <property role="1RvykC" value="1" />
-      <node concept="1LMeft" id="57hFvthMouv" role="1LMeey" />
-      <node concept="1LMeft" id="57hFvthMoux" role="1LMeey" />
-      <node concept="1LMeft" id="57hFvthMou$" role="1LMeey" />
+      <node concept="1LMeft" id="21yYpDYv_vX" role="1LMeey">
+        <ref role="1LMefu" node="HiCB4m79L5" resolve="Gergő" />
+      </node>
+      <node concept="1LMeft" id="21yYpDYv_w2" role="1LMeey">
+        <ref role="1LMefu" node="4$D6Y0SToxt" resolve="Kolos" />
+      </node>
     </node>
     <node concept="1RvklD" id="HiCB4m79L5" role="1LNsh$">
       <property role="TrG5h" value="Gergő" />
@@ -144,9 +150,15 @@
     <property role="TrG5h" value="New Laptop" />
     <ref role="1LMedD" node="HiCB4m79L5" resolve="Gergő" />
     <ref role="1LMedx" node="4$D6Y0SToxt" resolve="Kolos" />
-    <node concept="06YYd" id="57hFvthMLtO" role="1RvynC" />
-    <node concept="1LMeeO" id="2HVi_sz1kTz" role="1Rvykg">
+    <node concept="1LMeeO" id="21yYpDYv_vE" role="1Rvykg">
       <ref role="1LMeeP" node="2HVi_syZj6x" resolve="IT stuff" />
+    </node>
+    <node concept="1LMeeO" id="21yYpDYv_vK" role="1Rvykg">
+      <ref role="1LMeeP" node="57hFvthL8oE" resolve="Food" />
+    </node>
+    <node concept="06YYd" id="21yYpDYv_vO" role="1RvynC">
+      <property role="06YYc" value="430000" />
+      <ref role="06YXQ" node="2HVi_sz18El" resolve="price" />
     </node>
   </node>
 </model>
