@@ -152,8 +152,8 @@
   </node>
   <node concept="1Rvyko" id="2HVi_sz1kTy">
     <property role="TrG5h" value="New Laptop" />
-    <ref role="1LMedD" node="HiCB4m79L5" resolve="Gergő" />
     <ref role="1LMedx" node="4$D6Y0SToxt" resolve="Kolos" />
+    <ref role="1LMedD" node="HiCB4m79L5" resolve="Gergő" />
     <node concept="1LMeeO" id="21yYpDYv_vE" role="1Rvykg">
       <ref role="1LMeeP" node="2HVi_syZj6x" resolve="IT stuff" />
     </node>
