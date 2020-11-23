@@ -20,6 +20,10 @@
       <concept id="3133179703875891766" name="approvalworkflow.structure.CategoryList" flags="ng" index="9xNxx">
         <child id="3133179703875891769" name="categories" index="9xNxI" />
       </concept>
+      <concept id="3018289954002320116" name="approvalworkflow.structure.TypeList" flags="ng" index="2g$Mhc">
+        <child id="3018289954002320117" name="types" index="2g$Mhd" />
+      </concept>
+      <concept id="3018289954002320082" name="approvalworkflow.structure.Type" flags="ng" index="2g$MhE" />
       <concept id="5271775488654833769" name="approvalworkflow.structure.AttributeReference" flags="ng" index="1LMee9">
         <reference id="5271775488654833770" name="attribute" index="1LMeea" />
       </concept>
@@ -40,7 +44,8 @@
         <child id="5271775488654833730" name="superior" index="1LMeey" />
       </concept>
       <concept id="1655298788564592759" name="approvalworkflow.structure.Attribute" flags="ng" index="1Rvykd">
-        <property id="1655298788564592769" name="unit" index="1RvynV" />
+        <property id="3018289954002540815" name="unit" index="2g$8uR" />
+        <reference id="6259257456915798000" name="type" index="FWKUe" />
       </concept>
       <concept id="1655298788564592750" name="approvalworkflow.structure.Rule" flags="ng" index="1Rvykk">
         <property id="1655298788564592831" name="criteria" index="1Rvyn5" />
@@ -91,21 +96,18 @@
       <node concept="1LMeft" id="57hFvthLFda" role="1RvynK">
         <ref role="1LMefu" node="HiCB4m79L5" resolve="Gergő" />
       </node>
-      <node concept="1LMee9" id="2HVi_sz18Ef" role="1Rvykf">
-        <ref role="1LMeea" node="2HVi_sz18E6" resolve="place of origin" />
-      </node>
-      <node concept="1LMee9" id="57hFvthLFdq" role="1Rvykf">
-        <ref role="1LMeea" node="2HVi_sz18El" resolve="price" />
-      </node>
       <node concept="1LMeer" id="57hFvthLFdd" role="1RvynR">
         <ref role="1LMees" node="2HVi_sz0Wqu" resolve="Price Rule" />
+      </node>
+      <node concept="1LMee9" id="5rtmnTXet7G" role="1Rvykf">
+        <ref role="1LMeea" node="5rtmnTXduyn" resolve="place of origin" />
+      </node>
+      <node concept="1LMee9" id="5rtmnTXet7L" role="1Rvykf">
+        <ref role="1LMeea" node="5rtmnTXduyl" resolve="weight" />
       </node>
     </node>
     <node concept="1Rvykn" id="57hFvthL8oE" role="9xNxI">
       <property role="TrG5h" value="Food" />
-      <node concept="1LMee9" id="57hFvthL8oK" role="1Rvykf">
-        <ref role="1LMeea" node="2HVi_sz0Wr8" resolve="weight" />
-      </node>
       <node concept="1LMeft" id="57hFvthL8oM" role="1RvynK">
         <ref role="1LMefu" node="4$D6Y0SToxv" resolve="Sanyi" />
       </node>
@@ -115,21 +117,9 @@
       <node concept="1LMeer" id="79P6bN_mDeT" role="1RvynR">
         <ref role="1LMees" node="79P6bN_mk5e" resolve="Food Rule" />
       </node>
-    </node>
-  </node>
-  <node concept="9xrnE" id="2HVi_sz0JJu">
-    <property role="TrG5h" value="Attributes" />
-    <node concept="1Rvykd" id="2HVi_sz0Wr8" role="8unHr">
-      <property role="TrG5h" value="weight" />
-      <property role="1RvynV" value="kg" />
-    </node>
-    <node concept="1Rvykd" id="2HVi_sz18E6" role="8unHr">
-      <property role="TrG5h" value="place of origin" />
-      <property role="1RvynV" value="country" />
-    </node>
-    <node concept="1Rvykd" id="2HVi_sz18El" role="8unHr">
-      <property role="TrG5h" value="price" />
-      <property role="1RvynV" value="huf" />
+      <node concept="1LMee9" id="5rtmnTXet7P" role="1Rvykf">
+        <ref role="1LMeea" node="5rtmnTXduyq" resolve="price" />
+      </node>
     </node>
   </node>
   <node concept="9xrkX" id="2HVi_sz0Wqt">
@@ -154,15 +144,56 @@
     <property role="TrG5h" value="New Laptop" />
     <ref role="1LMedx" node="4$D6Y0SToxt" resolve="Kolos" />
     <ref role="1LMedD" node="HiCB4m79L5" resolve="Gergő" />
+    <node concept="06YYd" id="1ZsbbNfDc$Z" role="1RvynC">
+      <property role="06YYc" value="1.34" />
+      <ref role="06YXQ" node="5rtmnTXduyl" resolve="weight" />
+    </node>
+    <node concept="06YYd" id="1ZsbbNfDc_7" role="1RvynC">
+      <property role="06YYc" value="250000" />
+      <ref role="06YXQ" node="5rtmnTXduyq" resolve="price" />
+    </node>
+    <node concept="06YYd" id="1ZsbbNfDc_n" role="1RvynC">
+      <property role="06YYc" value="Hungary" />
+      <ref role="06YXQ" node="5rtmnTXduyn" resolve="place of origin" />
+    </node>
     <node concept="1LMeeO" id="21yYpDYv_vE" role="1Rvykg">
       <ref role="1LMeeP" node="2HVi_syZj6x" resolve="IT stuff" />
     </node>
     <node concept="1LMeeO" id="21yYpDYv_vK" role="1Rvykg">
       <ref role="1LMeeP" node="57hFvthL8oE" resolve="Food" />
     </node>
-    <node concept="06YYd" id="21yYpDYv_vO" role="1RvynC">
-      <property role="06YYc" value="430000" />
-      <ref role="06YXQ" node="2HVi_sz18El" resolve="price" />
+  </node>
+  <node concept="9xrnE" id="5rtmnTXduyk">
+    <property role="TrG5h" value="Attributes" />
+    <node concept="1Rvykd" id="5rtmnTXduyl" role="8unHr">
+      <property role="TrG5h" value="weight" />
+      <property role="2g$8uR" value="kg" />
+      <ref role="FWKUe" node="5rtmnTXgXt7" resolve="boolean" />
+    </node>
+    <node concept="1Rvykd" id="5rtmnTXduyn" role="8unHr">
+      <property role="TrG5h" value="place of origin" />
+      <property role="2g$8uR" value="country" />
+      <ref role="FWKUe" node="5rtmnTXgXte" resolve="string" />
+    </node>
+    <node concept="1Rvykd" id="5rtmnTXduyq" role="8unHr">
+      <property role="TrG5h" value="price" />
+      <property role="2g$8uR" value="huf" />
+      <ref role="FWKUe" node="5rtmnTXgXt5" resolve="int" />
+    </node>
+  </node>
+  <node concept="2g$Mhc" id="5rtmnTXeWU9">
+    <property role="TrG5h" value="Types" />
+    <node concept="2g$MhE" id="5rtmnTXgXt5" role="2g$Mhd">
+      <property role="TrG5h" value="int" />
+    </node>
+    <node concept="2g$MhE" id="5rtmnTXgXt7" role="2g$Mhd">
+      <property role="TrG5h" value="boolean" />
+    </node>
+    <node concept="2g$MhE" id="5rtmnTXgXta" role="2g$Mhd">
+      <property role="TrG5h" value="double" />
+    </node>
+    <node concept="2g$MhE" id="5rtmnTXgXte" role="2g$Mhd">
+      <property role="TrG5h" value="string" />
     </node>
   </node>
 </model>

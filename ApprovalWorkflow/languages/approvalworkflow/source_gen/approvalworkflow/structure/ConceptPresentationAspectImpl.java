@@ -21,6 +21,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Rule;
   private ConceptPresentation props_RuleList;
   private ConceptPresentation props_RuleReference;
+  private ConceptPresentation props_Type;
+  private ConceptPresentation props_TypeList;
   private ConceptPresentation props_User;
   private ConceptPresentation props_UserList;
   private ConceptPresentation props_UserReference;
@@ -114,6 +116,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_RuleReference = cpb.create();
         }
         return props_RuleReference;
+      case LanguageConceptSwitch.Type:
+        if (props_Type == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Type = cpb.create();
+        }
+        return props_Type;
+      case LanguageConceptSwitch.TypeList:
+        if (props_TypeList == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_TypeList = cpb.create();
+        }
+        return props_TypeList;
       case LanguageConceptSwitch.User:
         if (props_User == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
