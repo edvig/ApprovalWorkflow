@@ -26,6 +26,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_User;
   private ConceptPresentation props_UserList;
   private ConceptPresentation props_UserReference;
+  private ConceptPresentation props_WorkflowApp;
 
   @Override
   @Nullable
@@ -151,6 +152,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_UserReference = cpb.create();
         }
         return props_UserReference;
+      case LanguageConceptSwitch.WorkflowApp:
+        if (props_WorkflowApp == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_WorkflowApp = cpb.create();
+        }
+        return props_WorkflowApp;
     }
     return null;
   }

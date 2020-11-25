@@ -26,6 +26,7 @@ public final class LanguageConceptSwitch {
   public static final int User = 14;
   public static final int UserList = 15;
   public static final int UserReference = 16;
+  public static final int WorkflowApp = 17;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L);
@@ -46,6 +47,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x16f8cd7a61858813L, User);
     builder.put(0x49291be038e4df83L, UserList);
     builder.put(0x49291be038e1f83dL, UserReference);
+    builder.put(0x1afc32f8f25d3fd3L, WorkflowApp);
     myIndex = builder.seal();
   }
 

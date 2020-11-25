@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -361,6 +362,49 @@
     </node>
     <node concept="PrWs8" id="5rtmnTXet8q" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FWcJzMnjZj">
+    <property role="EcuMT" value="1944485183916687315" />
+    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="WorkflowApp" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1FWcJzMnjZk" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1FWcJzMpteI" role="PzmwI">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
+    <node concept="1TJgyj" id="1FWcJzMnjZm" role="1TKVEi">
+      <property role="IQ2ns" value="1944485183916687318" />
+      <property role="20kJfa" value="attributes" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2HVi_syZJYX" resolve="AttributeList" />
+    </node>
+    <node concept="1TJgyj" id="1FWcJzMnjZo" role="1TKVEi">
+      <property role="IQ2ns" value="1944485183916687320" />
+      <property role="20kJfa" value="categories" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2HVi_syZ78Q" resolve="CategoryList" />
+    </node>
+    <node concept="1TJgyj" id="1FWcJzMnjZr" role="1TKVEi">
+      <property role="IQ2ns" value="1944485183916687323" />
+      <property role="20kJfa" value="rules" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2HVi_syZJXE" resolve="RuleList" />
+    </node>
+    <node concept="1TJgyj" id="1FWcJzMnjZv" role="1TKVEi">
+      <property role="IQ2ns" value="1944485183916687327" />
+      <property role="20kJfa" value="users" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4$D6Y0STdY3" resolve="UserList" />
+    </node>
+    <node concept="1TJgyj" id="1FWcJzMnjZ$" role="1TKVEi">
+      <property role="IQ2ns" value="1944485183916687332" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="approvals" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1rSNnDxxIxJ" resolve="Approval" />
     </node>
   </node>
 </model>

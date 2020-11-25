@@ -24,6 +24,12 @@
         <child id="3018289954002320117" name="types" index="2g$Mhd" />
       </concept>
       <concept id="3018289954002320082" name="approvalworkflow.structure.Type" flags="ng" index="2g$MhE" />
+      <concept id="1944485183916687315" name="approvalworkflow.structure.WorkflowApp" flags="ng" index="3CCgOF">
+        <reference id="1944485183916687320" name="categories" index="3CCgOw" />
+        <reference id="1944485183916687323" name="rules" index="3CCgOz" />
+        <reference id="1944485183916687327" name="users" index="3CCgOB" />
+        <reference id="1944485183916687318" name="attributes" index="3CCgOI" />
+      </concept>
       <concept id="5271775488654833769" name="approvalworkflow.structure.AttributeReference" flags="ng" index="1LMee9">
         <reference id="5271775488654833770" name="attribute" index="1LMeea" />
       </concept>
@@ -195,6 +201,13 @@
     <node concept="2g$MhE" id="5rtmnTXgXte" role="2g$Mhd">
       <property role="TrG5h" value="string" />
     </node>
+  </node>
+  <node concept="3CCgOF" id="1FWcJzMnmX1">
+    <property role="TrG5h" value="MyWorkflowApp" />
+    <ref role="3CCgOI" node="5rtmnTXduyk" resolve="Attributes" />
+    <ref role="3CCgOw" node="2HVi_syZj6w" resolve="Categories" />
+    <ref role="3CCgOz" node="2HVi_sz0Wqt" resolve="Rules" />
+    <ref role="3CCgOB" node="4$D6Y0SToxs" resolve="Users" />
   </node>
 </model>
 

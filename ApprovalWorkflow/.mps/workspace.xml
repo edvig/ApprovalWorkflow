@@ -62,7 +62,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="9659a724-fbfe-474d-97a8-29d4a9892449/r:11cf1b2c-fa78-42c7-9698-75f440c8f8f1(TempModule9659a724-fbfe-474d-97a8-29d4a9892449/ConsoleModel_528414666799)">
+            <model ref="eccd9af4-ca69-4cca-916b-73a0088caa40/r:477ddc8e-783c-4b19-976a-a567ae3418d2(TempModuleeccd9af4-ca69-4cca-916b-73a0088caa40/ConsoleModel_609490156543200)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -82,11 +82,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1ZsbbNfCQ4a">
-                <node concept="3balQm" id="1ZsbbNfCQ4b" role="aymYE" />
-                <node concept="2Clz$F" id="1ZsbbNfCQ4c" role="aymYO" />
-                <node concept="2_V_lH" id="1ZsbbNfCQ4d" role="1PhJh3">
-                  <ref role="2_V_lI" node="1ZsbbNfCQ4c" resolve="CommandHolder" />
+              <node concept="aymSD" id="3nSyVgdqqxi">
+                <node concept="3balQm" id="3nSyVgdqqxj" role="aymYE" />
+                <node concept="2Clz$F" id="3nSyVgdqqxk" role="aymYO" />
+                <node concept="2_V_lH" id="3nSyVgdqqxl" role="1PhJh3">
+                  <ref role="2_V_lI" node="3nSyVgdqqxk" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -203,6 +203,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,20 +212,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ae1ddddb-da3d-4ec1-8601-7af374e8418a(approvalworkflow.constraints) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.constraints.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -233,7 +220,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
+              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,7 +244,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
+              <option name="myItemId" value="approvalworkflow.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,7 +282,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:8dbf2cd3-96b8-4a64-b131-8c83bb517c7b(approvalworkflow.editor) in IdeaFile[path: C:/Users/edvig/Documents/BME/3.ev/5.felev/Témalaboratórium - AUT/git/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.editor.mps]" />
+              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,10 +295,66 @@
               <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:cd1a4e7d-9d58-4829-80a4-3d57fd5ac04d(approvalworkflow.generator.templates@generator) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:cd1a4e7d-9d58-4829-80a4-3d57fd5ac04d(approvalworkflow.generator.templates@generator) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1655298788564455778" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,13 +364,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1944485183916699457" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -326,9 +390,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2020.2/shapes" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2020.2.1/calculator-tutorial" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Java Application.Node MyWorkflowApp">
     <configuration name="Tests in 'approvalworkflow.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
       <myJUnitSettings>
         <MyState>
@@ -373,8 +437,33 @@
         <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Node MyWorkflowApp" type="Java Application" factoryName="Java" temporary="true">
+      <myNode>
+        <MyState>
+          <option name="myNodePointer" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox)/1944485183916699457" />
+          <option name="myNodeText" value="approvalworkflow.sandbox.MyWorkflowApp" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2020.2" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Application.Node MyWorkflowApp" />
         <item itemvalue="JUnit Tests.Tests in 'approvalworkflow.sandbox'" />
       </list>
     </recent_temporary>
@@ -413,35 +502,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="proba_commit_from_mps_also_editor_update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="228" y="287" key="#MPSPropertiesConfigurable" timestamp="1603634392955">
-      <screen x="0" y="0" width="2276" height="1240" />
-    </state>
-    <state x="228" y="287" key="#MPSPropertiesConfigurable/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1603634392955" />
-    <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1605532093407">
+    <state x="637" y="272" key="#MPSPropertiesConfigurable" timestamp="1606238932416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605532093407" />
+    <state x="637" y="272" key="#MPSPropertiesConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1606238932416" />
+    <state x="228" y="287" key="#MPSPropertiesConfigurable/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1603634392955" />
+    <state x="640" y="275" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1606304430762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="275" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606304430762" />
+    <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1606208710572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606208710572" />
     <state x="818" y="290" key="CommitChangelistDialog2" timestamp="1605214487495">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="818" y="290" key="CommitChangelistDialog2/2560.360.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605214487495" />
-    <state x="828" y="284" key="FileChooserDialogImpl" timestamp="1606139380630">
-      <screen x="0" y="0" width="2276" height="1240" />
+    <state x="296" y="315" key="FileChooserDialogImpl" timestamp="1606209866281">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="296" y="315" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605532072560" />
+    <state x="296" y="315" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606209866281" />
     <state x="828" y="284" key="FileChooserDialogImpl/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1606139380630" />
-    <state x="1088" y="357" key="IDE.errors.dialog" timestamp="1606138484297">
-      <screen x="0" y="0" width="2276" height="1240" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1606213128431">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606213128431" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1606213128431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606213128431" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1606213128431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606213128431" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1606213128431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606213128431" />
+    <state x="918" y="299" key="IDE.errors.dialog" timestamp="1606213047790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="918" y="299" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606213047790" />
     <state x="1088" y="357" key="IDE.errors.dialog/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1606138484297" />
     <state x="1224" y="414" key="IDE.errors.dialog/2560.360.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605220660318" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1605214503443">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.360.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605214503443" />
-    <state x="389" y="445" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1603634372985">
-      <screen x="0" y="0" width="2276" height="1240" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606213628910">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606213628910" />
+    <state x="328" y="373" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1606238931247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="328" y="373" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606238931247" />
     <state x="389" y="445" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1603634372985" />
     <state x="290" y="482" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1603630878809">
       <screen x="0" y="0" width="2276" height="1240" />
