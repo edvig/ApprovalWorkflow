@@ -18,5 +18,18 @@
     <classNode dependClassName="javax.swing.SwingUtilities" />
     <classNode extendsClassName="javax.swing.JFrame" />
   </dependency>
+  <dependency className="approvalworkflow.sandbox.TypeList">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="approvalworkflow.sandbox.User">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.List" />
+  </dependency>
+  <dependency className="approvalworkflow.sandbox.UserList">
+    <classNode dependClassName="approvalworkflow.sandbox.User" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
 </dependenciesRoot>
 

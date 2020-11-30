@@ -150,5 +150,93 @@
       <unit id="1944485183916699457" at="19,0,132,0" name="approvalworkflow.sandbox.MyWorkflowApp" />
     </file>
   </root>
+  <root nodeRef="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox)/5271775488655067228">
+    <file name="User.java">
+      <node id="5271775488655067229" at="8,0,9,0" concept="2" trace="name" />
+      <node id="5271775488655067231" at="8,0,9,0" concept="2" trace="name" />
+      <node id="815893089093459013" at="8,0,9,0" concept="2" trace="name" />
+      <node id="5271775488655067229" at="9,0,10,0" concept="2" trace="hierarchy" />
+      <node id="5271775488655067231" at="9,0,10,0" concept="2" trace="hierarchy" />
+      <node id="815893089093459013" at="9,0,10,0" concept="2" trace="hierarchy" />
+      <node id="5271775488655067229" at="10,0,11,0" concept="2" trace="superior" />
+      <node id="5271775488655067231" at="10,0,11,0" concept="2" trace="superior" />
+      <node id="815893089093459013" at="10,0,11,0" concept="2" trace="superior" />
+      <node id="5271775488655067229" at="11,70,12,18" concept="1" />
+      <node id="5271775488655067231" at="11,70,12,18" concept="1" />
+      <node id="815893089093459013" at="11,70,12,18" concept="1" />
+      <node id="5271775488655067229" at="12,18,13,28" concept="1" />
+      <node id="5271775488655067231" at="12,18,13,28" concept="1" />
+      <node id="815893089093459013" at="12,18,13,28" concept="1" />
+      <node id="5271775488655067229" at="13,28,14,26" concept="1" />
+      <node id="5271775488655067231" at="13,28,14,26" concept="1" />
+      <node id="815893089093459013" at="13,28,14,26" concept="1" />
+      <node id="5271775488655067229" at="14,26,15,0" concept="5" />
+      <node id="5271775488655067231" at="14,26,15,0" concept="5" />
+      <node id="815893089093459013" at="14,26,15,0" concept="5" />
+      <node id="5271775488655067231" at="15,0,16,30" concept="1" />
+      <node id="815893089093459013" at="15,0,16,30" concept="1" />
+      <node id="5271775488655067229" at="16,30,17,30" concept="1" />
+      <node id="5271775488655067229" at="11,0,17,0" concept="0" trace="User#(Ljava/lang/String;ILjava/util/List;)V" />
+      <node id="5271775488655067231" at="11,0,17,0" concept="0" trace="User#(Ljava/lang/String;ILjava/util/List;)V" />
+      <node id="815893089093459013" at="11,0,18,0" concept="0" trace="User#(Ljava/lang/String;ILjava/util/List;)V" />
+      <scope id="5271775488655067229" at="11,70,15,0" />
+      <scope id="5271775488655067231" at="11,70,15,0" />
+      <scope id="815893089093459013" at="11,70,16,30" />
+      <scope id="5271775488655067229" at="11,0,17,0">
+        <var name="hierarchyIn" id="5271775488655067229" />
+        <var name="nameIn" id="5271775488655067229" />
+        <var name="superiorIn" id="5271775488655067229" />
+      </scope>
+      <scope id="5271775488655067231" at="11,0,17,0">
+        <var name="hierarchyIn" id="5271775488655067231" />
+        <var name="nameIn" id="5271775488655067231" />
+        <var name="superiorIn" id="5271775488655067231" />
+      </scope>
+      <scope id="815893089093459013" at="11,0,18,0">
+        <var name="hierarchyIn" id="815893089093459013" />
+        <var name="nameIn" id="815893089093459013" />
+        <var name="superiorIn" id="815893089093459013" />
+      </scope>
+      <unit id="5271775488655067229" at="7,0,18,0" name="approvalworkflow.sandbox.User" />
+      <unit id="5271775488655067231" at="7,0,18,0" name="approvalworkflow.sandbox.User" />
+      <unit id="815893089093459013" at="7,0,19,0" name="approvalworkflow.sandbox.User" />
+    </file>
+    <file name="UserList.java">
+      <node id="5271775488655067228" at="9,0,10,0" concept="2" trace="users" />
+      <node id="5271775488655067229" at="10,21,11,72" concept="1" />
+      <node id="5271775488655067231" at="11,72,12,72" concept="1" />
+      <node id="815893089093459013" at="12,72,13,72" concept="1" />
+      <node id="5271775488655067228" at="10,0,15,0" concept="0" trace="UserList#()V" />
+      <scope id="5271775488655067228" at="10,21,13,72" />
+      <scope id="5271775488655067228" at="10,0,15,0" />
+      <unit id="5271775488655067228" at="8,0,16,0" name="approvalworkflow.sandbox.UserList" />
+    </file>
+  </root>
+  <root nodeRef="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox)/6259257456916680329">
+    <file name="TypeList.java">
+      <node id="6259257456916680329" at="8,0,9,0" concept="2" trace="types" />
+      <unit id="6259257456916680329" at="9,0,15,0" name="approvalworkflow.sandbox.TypeList$types" />
+      <unit id="6259257456916680329" at="7,0,16,0" name="approvalworkflow.sandbox.TypeList" />
+    </file>
+  </root>
+  <root nodeRef="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox)/665900872497279901">
+    <file name="User.java">
+      <node id="665900872497279901" at="8,0,9,0" concept="2" trace="name" />
+      <node id="665900872497279901" at="9,0,10,0" concept="2" trace="hierarchy" />
+      <node id="665900872497279901" at="10,0,11,0" concept="2" trace="superior" />
+      <node id="665900872497279901" at="11,70,12,18" concept="1" />
+      <node id="665900872497279901" at="12,18,13,28" concept="1" />
+      <node id="665900872497279901" at="13,28,14,26" concept="1" />
+      <node id="665900872497279901" at="14,26,15,0" concept="5" />
+      <node id="665900872497279901" at="11,0,19,0" concept="0" trace="User#(Ljava/lang/String;ILjava/util/List;)V" />
+      <scope id="665900872497279901" at="11,70,17,30" />
+      <scope id="665900872497279901" at="11,0,19,0">
+        <var name="hierarchyIn" id="665900872497279901" />
+        <var name="nameIn" id="665900872497279901" />
+        <var name="superiorIn" id="665900872497279901" />
+      </scope>
+      <unit id="665900872497279901" at="7,0,20,0" name="approvalworkflow.sandbox.User" />
+    </file>
+  </root>
 </debug-info>
 

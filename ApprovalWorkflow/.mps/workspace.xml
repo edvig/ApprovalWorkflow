@@ -2,51 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefa246a-6749-44ea-afa8-20aa11815813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Attribute_SubstituteMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Type_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Type_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen/approvalworkflow/sandbox/TypeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen/approvalworkflow/sandbox/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen/approvalworkflow/sandbox/UserList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/Attribute_Constraints$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/Attribute_Constraints$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/Attribute_Constraints$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/Attribute_Constraints$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/Attribute_Constraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/Attribute_Constraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/AttributeWithValue_EditorBuilder_a$Inline_Builder1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/AttributeWithValue_EditorBuilder_a$Inline_Builder1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/AttributeWithValue_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/AttributeWithValue_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/Attribute_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/LanguageConceptSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/approvalworkflow.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/approvalworkflow.mpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/StructureAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/classes_gen/approvalworkflow/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/templates/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/templates/QueriesGenerated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/templates/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/templates/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/classes_gen/approvalworkflow/generator/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen.caches/approvalworkflow/generator/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen.caches/approvalworkflow/generator/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen.caches/approvalworkflow/generator/templates/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen.caches/approvalworkflow/generator/templates/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen.caches/approvalworkflow/generator/templates/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen.caches/approvalworkflow/generator/templates/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/templates/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/templates/QueriesGenerated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/templates/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/templates/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/source_gen/approvalworkflow/generator/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.constraints.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/models/approvalworkflow.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/approvalworkflow.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/approvalworkflow.sandbox.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/classes_gen/approvalworkflow/sandbox/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/classes_gen/approvalworkflow/sandbox/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen.caches/approvalworkflow/sandbox/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen.caches/approvalworkflow/sandbox/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen.caches/approvalworkflow/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen.caches/approvalworkflow/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/constraints/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/editor/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen/approvalworkflow/sandbox/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/sandbox/source_gen/approvalworkflow/sandbox/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen.caches/approvalworkflow/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/constraints/Attribute_Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/constraints/Attribute_Constraints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/AttributeWithValue_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/AttributeWithValue_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Attribute_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Attribute_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Requirement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/Requirement_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/LanguageConceptSwitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/StructureAspectDescriptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/approvalworkflow/source_gen/approvalworkflow/structure/trace.info" afterDir="false" />
@@ -62,7 +50,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="eccd9af4-ca69-4cca-916b-73a0088caa40/r:477ddc8e-783c-4b19-976a-a567ae3418d2(TempModuleeccd9af4-ca69-4cca-916b-73a0088caa40/ConsoleModel_609490156543200)">
+            <model ref="ac353a97-dbe8-4e56-8181-b9b420a530fd/r:33c28b56-6dff-4dad-bb4f-4a5ee0370197(TempModuleac353a97-dbe8-4e56-8181-b9b420a530fd/ConsoleModel_456763293041)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -82,11 +70,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3nSyVgdqqxi">
-                <node concept="3balQm" id="3nSyVgdqqxj" role="aymYE" />
-                <node concept="2Clz$F" id="3nSyVgdqqxk" role="aymYO" />
-                <node concept="2_V_lH" id="3nSyVgdqqxl" role="1PhJh3">
-                  <ref role="2_V_lI" node="3nSyVgdqqxk" resolve="CommandHolder" />
+              <node concept="aymSD" id="4jJqQots03L">
+                <node concept="3balQm" id="4jJqQots03M" role="aymYE" />
+                <node concept="2Clz$F" id="4jJqQots03N" role="aymYO" />
+                <node concept="2_V_lH" id="4jJqQots03O" role="1PhJh3">
+                  <ref role="2_V_lI" node="4jJqQots03N" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -203,7 +191,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,6 +199,52 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all models" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:cd1a4e7d-9d58-4829-80a4-3d57fd5ac04d(approvalworkflow.generator.templates@generator) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -220,7 +253,63 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
+              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="approvalworkflow" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1655298788564502547" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,45 +333,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="43f6c8ca-41c6-4b71-a180-e85c572cc850" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
+              <option name="myItemId" value="r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/models/approvalworkflow.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,64 +348,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="approvalworkflow.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cd1a4e7d-9d58-4829-80a4-3d57fd5ac04d(approvalworkflow.generator.templates@generator) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f4c726b1-8a9f-431c-a55a-d6c1445e5f46(approvalworkflow)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approvalworkflow" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cd1a4e7d-9d58-4829-80a4-3d57fd5ac04d(approvalworkflow.generator.templates@generator) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/generator/templates/approvalworkflow.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1655298788564455778" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,16 +365,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: C:/Users/Kolos/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
+              <option name="myItemId" value="r:e67fdf75-db52-41cb-9f53-fbe6e7cf1dcc(approvalworkflow.sandbox) in IdeaFile[path: /Users/edviszabolcs/Documents/GitHub/ApprovalWorkflow/ApprovalWorkflow/languages/approvalworkflow/sandbox/models/approvalworkflow.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1944485183916699457" />
+              <option name="myItemId" value="5271775488655067228" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -391,6 +385,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2020.2.1/calculator-tutorial" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Java Application.Node MyWorkflowApp">
     <configuration name="Tests in 'approvalworkflow.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
@@ -507,10 +502,11 @@
     </state>
     <state x="637" y="272" key="#MPSPropertiesConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1606238932416" />
     <state x="228" y="287" key="#MPSPropertiesConfigurable/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1603634392955" />
-    <state x="640" y="275" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1606304430762">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="853" y="381" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1606678215037">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="640" y="275" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606304430762" />
+    <state x="853" y="381" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/2560.383.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1606678215037" />
     <state x="784" y="438" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1606208710572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -540,12 +536,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606213128431" />
-    <state x="918" y="299" key="IDE.errors.dialog" timestamp="1606213047790">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1178" y="411" key="IDE.errors.dialog" timestamp="1606743152853">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="918" y="299" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606213047790" />
     <state x="1088" y="357" key="IDE.errors.dialog/0.0.2276.1240/5120.802.1920.1040@0.0.2276.1240" timestamp="1606138484297" />
-    <state x="1224" y="414" key="IDE.errors.dialog/2560.360.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605220660318" />
+    <state x="1178" y="411" key="IDE.errors.dialog/2560.360.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1606743152853" />
+    <state x="781" y="359" key="SettingsEditor" timestamp="1606738077680">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="781" y="359" key="SettingsEditor/2560.383.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1606738077680" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1605214503443">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

@@ -209,5 +209,15 @@
     <ref role="3CCgOz" node="2HVi_sz0Wqt" resolve="Rules" />
     <ref role="3CCgOB" node="4$D6Y0SToxs" resolve="Users" />
   </node>
+  <node concept="1RvklD" id="$XKl30OFet">
+    <property role="TrG5h" value="Feri" />
+    <property role="1RvykC" value="2" />
+    <node concept="1LMeft" id="$XKl30OFeu" role="1LMeey">
+      <ref role="1LMefu" node="HiCB4m79L5" resolve="Gergő" />
+    </node>
+    <node concept="1LMeft" id="$XKl30OFez" role="1LMeey">
+      <ref role="1LMefu" node="4$D6Y0SToxt" resolve="Kolos" />
+    </node>
+  </node>
 </model>
 
