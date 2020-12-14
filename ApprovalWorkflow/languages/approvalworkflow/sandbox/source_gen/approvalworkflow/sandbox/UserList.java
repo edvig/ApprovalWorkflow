@@ -8,8 +8,8 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class UserList {
   private List<User> users;
   public UserList() {
-    ListSequence.fromList(users).addElement(new User("Kolos", 2, null));
-    ListSequence.fromList(users).addElement(new User("Sanyi", 1, null));
-    ListSequence.fromList(users).addElement(new User("Gergő", 2, null));
+    ListSequence.fromList(users).addElement(new User("Jim", 2, null));
+    ListSequence.fromList(users).addElement(new User("Bob", 1, null));
+    ListSequence.fromList(users).addElement(new User("Matt", 2, null));
   }
 }

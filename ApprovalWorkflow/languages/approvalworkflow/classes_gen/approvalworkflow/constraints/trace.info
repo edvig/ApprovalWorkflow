@@ -12,7 +12,101 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,47,0" name="approvalworkflow.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,51,0" name="approvalworkflow.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ae1ddddb-da3d-4ec1-8601-7af374e8418a(approvalworkflow.constraints)/670440233192978305">
+    <file name="ValueInt_Constraints.java">
+      <node id="670440233192978305" at="25,33,26,32" concept="9" />
+      <node id="670440233192978305" at="33,127,34,128" concept="4" />
+      <node id="670440233192978305" at="34,128,35,0" concept="6" />
+      <node id="670440233192978305" at="36,55,37,71" concept="1" />
+      <node id="670440233192978305" at="38,9,39,0" concept="6" />
+      <node id="670440233192978305" at="39,0,40,22" concept="5" />
+      <node id="670440233192978557" at="44,128,45,255" concept="5" />
+      <node id="670440233192978305" at="47,0,48,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="670440233192978305" at="50,0,51,0" concept="7" trace="ValueInt$fU" />
+      <node id="670440233192978305" at="51,0,52,0" concept="7" trace="AttributeWithValue$f$" />
+      <node id="670440233192978305" at="55,0,56,0" concept="7" trace="attribute$PRpe" />
+      <node id="670440233192978305" at="56,0,57,0" concept="7" trace="type$QgZN" />
+      <node id="670440233192978305" at="60,0,61,0" concept="7" trace="name$MnvL" />
+      <node id="670440233192978305" at="25,0,28,0" concept="0" trace="ValueInt_Constraints#()V" />
+      <node id="670440233192978305" at="35,0,38,9" concept="2" />
+      <node id="670440233192978305" at="44,0,47,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="670440233192978305" at="32,0,42,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="670440233192978305" at="30,103,42,6" concept="5" />
+      <node id="670440233192978305" at="29,0,44,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="670440233192978305" at="25,33,26,32" />
+      <scope id="670440233192978305" at="36,55,37,71" />
+      <scope id="670440233192978307" at="44,128,45,255" />
+      <scope id="670440233192978305" at="25,0,28,0" />
+      <scope id="670440233192978305" at="44,0,47,0">
+        <var name="childConcept" id="670440233192978305" />
+        <var name="link" id="670440233192978305" />
+        <var name="node" id="670440233192978305" />
+        <var name="parentNode" id="670440233192978305" />
+      </scope>
+      <scope id="670440233192978305" at="33,127,40,22">
+        <var name="result" id="670440233192978305" />
+      </scope>
+      <scope id="670440233192978305" at="32,0,42,0">
+        <var name="checkingNodeContext" id="670440233192978305" />
+        <var name="context" id="670440233192978305" />
+      </scope>
+      <scope id="670440233192978305" at="30,103,42,6" />
+      <scope id="670440233192978305" at="29,0,44,0" />
+      <unit id="670440233192978305" at="59,0,62,0" name="approvalworkflow.constraints.ValueInt_Constraints$PROPS" />
+      <unit id="670440233192978305" at="49,0,53,0" name="approvalworkflow.constraints.ValueInt_Constraints$CONCEPTS" />
+      <unit id="670440233192978305" at="54,0,58,0" name="approvalworkflow.constraints.ValueInt_Constraints$LINKS" />
+      <unit id="670440233192978305" at="31,15,42,5" name="approvalworkflow.constraints.ValueInt_Constraints$1" />
+      <unit id="670440233192978305" at="24,0,63,0" name="approvalworkflow.constraints.ValueInt_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:ae1ddddb-da3d-4ec1-8601-7af374e8418a(approvalworkflow.constraints)/670440233193127017">
+    <file name="ValueString_Constraints.java">
+      <node id="670440233193127017" at="25,36,26,35" concept="9" />
+      <node id="670440233193127017" at="33,127,34,128" concept="4" />
+      <node id="670440233193127017" at="34,128,35,0" concept="6" />
+      <node id="670440233193127017" at="36,55,37,71" concept="1" />
+      <node id="670440233193127017" at="38,9,39,0" concept="6" />
+      <node id="670440233193127017" at="39,0,40,22" concept="5" />
+      <node id="670440233193127269" at="44,128,45,254" concept="5" />
+      <node id="670440233193127017" at="47,0,48,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="670440233193127017" at="50,0,51,0" concept="7" trace="ValueString$ry" />
+      <node id="670440233193127017" at="51,0,52,0" concept="7" trace="AttributeWithValue$f$" />
+      <node id="670440233193127017" at="55,0,56,0" concept="7" trace="attribute$PRpe" />
+      <node id="670440233193127017" at="56,0,57,0" concept="7" trace="type$QgZN" />
+      <node id="670440233193127017" at="60,0,61,0" concept="7" trace="name$MnvL" />
+      <node id="670440233193127017" at="25,0,28,0" concept="0" trace="ValueString_Constraints#()V" />
+      <node id="670440233193127017" at="35,0,38,9" concept="2" />
+      <node id="670440233193127017" at="44,0,47,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="670440233193127017" at="32,0,42,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="670440233193127017" at="30,103,42,6" concept="5" />
+      <node id="670440233193127017" at="29,0,44,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="670440233193127017" at="25,36,26,35" />
+      <scope id="670440233193127017" at="36,55,37,71" />
+      <scope id="670440233193127019" at="44,128,45,254" />
+      <scope id="670440233193127017" at="25,0,28,0" />
+      <scope id="670440233193127017" at="44,0,47,0">
+        <var name="childConcept" id="670440233193127017" />
+        <var name="link" id="670440233193127017" />
+        <var name="node" id="670440233193127017" />
+        <var name="parentNode" id="670440233193127017" />
+      </scope>
+      <scope id="670440233193127017" at="33,127,40,22">
+        <var name="result" id="670440233193127017" />
+      </scope>
+      <scope id="670440233193127017" at="32,0,42,0">
+        <var name="checkingNodeContext" id="670440233193127017" />
+        <var name="context" id="670440233193127017" />
+      </scope>
+      <scope id="670440233193127017" at="30,103,42,6" />
+      <scope id="670440233193127017" at="29,0,44,0" />
+      <unit id="670440233193127017" at="59,0,62,0" name="approvalworkflow.constraints.ValueString_Constraints$PROPS" />
+      <unit id="670440233193127017" at="49,0,53,0" name="approvalworkflow.constraints.ValueString_Constraints$CONCEPTS" />
+      <unit id="670440233193127017" at="54,0,58,0" name="approvalworkflow.constraints.ValueString_Constraints$LINKS" />
+      <unit id="670440233193127017" at="31,15,42,5" name="approvalworkflow.constraints.ValueString_Constraints$1" />
+      <unit id="670440233193127017" at="24,0,63,0" name="approvalworkflow.constraints.ValueString_Constraints" />
     </file>
   </root>
   <root nodeRef="r:ae1ddddb-da3d-4ec1-8601-7af374e8418a(approvalworkflow.constraints)/8247525492178582603">

@@ -30,6 +30,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptUser = createDescriptorForUser();
   /*package*/ final ConceptDescriptor myConceptUserList = createDescriptorForUserList();
   /*package*/ final ConceptDescriptor myConceptUserReference = createDescriptorForUserReference();
+  /*package*/ final ConceptDescriptor myConceptValue = createDescriptorForValue();
+  /*package*/ final ConceptDescriptor myConceptValueInt = createDescriptorForValueInt();
+  /*package*/ final ConceptDescriptor myConceptValueString = createDescriptorForValueString();
   /*package*/ final ConceptDescriptor myConceptWorkflowApp = createDescriptorForWorkflowApp();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -45,7 +48,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptApproval, myConceptAttribute, myConceptAttributeList, myConceptAttributeReference, myConceptAttributeWithValue, myConceptCategory, myConceptCategoryList, myConceptCategoryReference, myConceptRequirement, myConceptRule, myConceptRuleList, myConceptRuleReference, myConceptType, myConceptTypeList, myConceptUser, myConceptUserList, myConceptUserReference, myConceptWorkflowApp);
+    return Arrays.asList(myConceptApproval, myConceptAttribute, myConceptAttributeList, myConceptAttributeReference, myConceptAttributeWithValue, myConceptCategory, myConceptCategoryList, myConceptCategoryReference, myConceptRequirement, myConceptRule, myConceptRuleList, myConceptRuleReference, myConceptType, myConceptTypeList, myConceptUser, myConceptUserList, myConceptUserReference, myConceptValue, myConceptValueInt, myConceptValueString, myConceptWorkflowApp);
   }
 
   @Override
@@ -86,6 +89,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptUserList;
       case LanguageConceptSwitch.UserReference:
         return myConceptUserReference;
+      case LanguageConceptSwitch.Value:
+        return myConceptValue;
+      case LanguageConceptSwitch.ValueInt:
+        return myConceptValueInt;
+      case LanguageConceptSwitch.ValueString:
+        return myConceptValueString;
       case LanguageConceptSwitch.WorkflowApp:
         return myConceptWorkflowApp;
       default:
@@ -142,8 +151,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/5895684664945427066");
     b.version(2);
-    b.property("value", 0x51d1adf751ca427bL).type(PrimitiveTypeId.STRING).origin("5895684664945427067").done();
     b.associate("attribute", 0x51d1adf751ca4281L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a6186e877L).optional(false).origin("5895684664945427073").done();
+    b.aggregate("value", 0x1e736e68ace1b550L).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x1e736e68accfb728L).optional(false).ordered(true).multiple(false).origin("2194218839315690832").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForCategory() {
@@ -257,6 +266,31 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/5271775488654833725");
     b.version(2);
     b.associate("user", 0x49291be038e1f83eL).target(0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x16f8cd7a61858813L).optional(false).origin("5271775488654833726").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForValue() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "Value", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x1e736e68accfb728L);
+    b.class_(false, true, false);
+    b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/2194218839314511656");
+    b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForValueInt() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "ValueInt", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x1e736e68accfb729L);
+    b.class_(false, false, true);
+    b.super_("approvalworkflow.structure.Value", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x1e736e68accfb728L);
+    b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/2194218839314511657");
+    b.version(2);
+    b.property("value", 0x1e736e68accfb72aL).type(PrimitiveTypeId.INTEGER).origin("2194218839314511658").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForValueString() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("approvalworkflow", "ValueString", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x1e736e68accfb72cL);
+    b.class_(false, false, true);
+    b.super_("approvalworkflow.structure.Value", 0xf4c726b18a9f431cL, 0xa55ad6c1445e5f46L, 0x1e736e68accfb728L);
+    b.origin("r:3daa3f1c-6e0a-4040-af8a-c360298e1d4c(approvalworkflow.structure)/2194218839314511660");
+    b.version(2);
+    b.property("value", 0x1e736e68accfb72dL).type(PrimitiveTypeId.STRING).origin("2194218839314511661").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForWorkflowApp() {

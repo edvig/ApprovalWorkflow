@@ -5,7 +5,7 @@ package approvalworkflow.sandbox;
 import java.util.List;
 
 public class User {
-  private String name = "Feri";
+  private String name = "Alan";
   private int hierarchy = 2;
   private List<User> superior = null;
   public User(String nameIn, int hierarchyIn, List<User> superiorIn) {
@@ -13,7 +13,7 @@ public class User {
     hierarchy = hierarchyIn;
     superior = superiorIn;
 
-    System.out.print("Gergő");
-    System.out.print("Kolos");
+    System.out.print("Matt");
+    System.out.print("Jim");
   }
 }

@@ -13,6 +13,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -329,16 +330,18 @@
     <property role="EcuMT" value="5895684664945427066" />
     <property role="TrG5h" value="AttributeWithValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="57hFvthM$9V" role="1TKVEl">
-      <property role="IQ2nx" value="5895684664945427067" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="57hFvthM$a1" role="1TKVEi">
       <property role="IQ2ns" value="5895684664945427073" />
       <property role="20kJfa" value="attribute" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1rSNnDxxIxR" resolve="Attribute" />
+    </node>
+    <node concept="1TJgyj" id="1TNrAyGSrlg" role="1TKVEi">
+      <property role="IQ2ns" value="2194218839315690832" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1TNrAyGNVsC" resolve="Value" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Bz7FyTs3Fi">
@@ -406,6 +409,34 @@
       <property role="20kJfa" value="approvals" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1rSNnDxxIxJ" resolve="Approval" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1TNrAyGNVsC">
+    <property role="EcuMT" value="2194218839314511656" />
+    <property role="TrG5h" value="Value" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="1TNrAyGNVsD">
+    <property role="EcuMT" value="2194218839314511657" />
+    <property role="TrG5h" value="ValueInt" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="1TNrAyGNVsC" resolve="Value" />
+    <node concept="1TJgyi" id="1TNrAyGNVsE" role="1TKVEl">
+      <property role="IQ2nx" value="2194218839314511658" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1TNrAyGNVsG">
+    <property role="EcuMT" value="2194218839314511660" />
+    <property role="TrG5h" value="ValueString" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="1TNrAyGNVsC" resolve="Value" />
+    <node concept="1TJgyi" id="1TNrAyGNVsH" role="1TKVEl">
+      <property role="IQ2nx" value="2194218839314511661" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
